@@ -8,7 +8,7 @@ import { Check, ChildCustody, Criminal, Divorce, Emoji, Property, Supremecourt, 
 // Login, Profile, Services,
 const SecondaryNavbar = {
     line: 'Download the latest version of ',
-    link: '#',
+    link: 'https://www.google.com',
     appname: 'Wakeel-App',
     emoji: Emoji,
 }

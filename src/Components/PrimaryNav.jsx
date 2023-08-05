@@ -78,36 +78,38 @@ const PrimaryNav = () => {
               to={`/${e.link}`}
               className={`navbar-link`}>
               <li className={`nav-items ${toggle ? 'down-menu-animation' : ''}`} onClick={(event) => {
-                  setToggle(false)
-                  if (currentRoute === '' || currentRoute === '/') {
-                    event.stopPropagation()
-                  }
-                }}>
+                setToggle(false)
+                if (currentRoute === '' || currentRoute === '/') {
+                  event.stopPropagation()
+                }
+              }}>
                 {e.title}
               </li>
             </Link>
           ))}
 
-          <button
-            type="button"
-            className="center-flex global-btn"
-            onClick={() => {
-              setToggle(false);
-              navigate('/download');
-            }}
-          >
-            <ImDownload className="btn-icon" />
-            <span>Download</span>
-          </button>
+          <div className='mob-download-btn'>
+            <Link to='https://www.google.com' target='_blank'>
+              <button
+                type="button"
+                className="center-flex global-btn"
+                onClick={() => setToggle(false)}>
+                <ImDownload className="btn-icon" />
+                <span>Download</span>
+              </button>
+            </Link>
+          </div>
         </ul>
       </div>
 
       {/* Download Button */}
       <div className="center-flex download-btn">
-        <button type="button" className="center-flex global-btn" onClick={() => navigate('/download')}>
-          <ImDownload className="btn-icon" />
-          <span>Download</span>
-        </button>
+        <Link to='https://www.google.com' target='_blank'>
+          <button type="button" className="center-flex global-btn">
+            <ImDownload className="btn-icon" />
+            <span>Download</span>
+          </button>
+        </Link>
       </div>
     </div>
   );

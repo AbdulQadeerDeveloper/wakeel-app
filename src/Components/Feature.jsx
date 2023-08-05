@@ -10,8 +10,8 @@ const Feature = () => {
                 <div key={index} className={`feature ${index === 1 ? 'feature-reverse' : ''}`}>
                     <div className="feature-detail">
                         <div className='feature-text-box'>
-                            <h1 className="global-heading">{feature.title} <span className="feature-green-heading">{feature.greenTitle}</span> </h1>
-                            <p>{feature.detail}</p>
+                            <h1 className="global-heading">{feature.title} <span className="feature-black-heading">{feature.greenTitle}</span> </h1>
+                            <p className='global-paragraph'>{feature.detail}</p>
                         </div>
                     </div>
 
