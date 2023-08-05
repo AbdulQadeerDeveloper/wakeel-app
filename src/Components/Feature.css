@@ -1,0 +1,63 @@
+/* ------------------------ Features Section ---------------------- */
+
+.feature {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.feature-reverse {
+    flex-direction: row-reverse;
+    background-color: rgb(15, 27, 14);
+}
+
+.feature-detail, .feature-img {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-detail {
+    flex-direction: column;
+}
+
+.feature-detail .feature-text-box {
+    width: 300px;
+}
+
+.feature-green-heading {
+    color: rgb(3, 218, 3);
+}
+
+.feature-img img {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: -5px -5px 25px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-reverse img {
+    box-shadow: -5px -5px 25px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-reverse .global-heading, .feature-reverse p {
+    color: white;
+}
+
+@media(max-width: 426px) {
+    .feature{
+        flex-direction: column;
+    }
+    .feature-reverse{
+        flex-direction: column-reverse;
+    }
+    .feature-text-box{
+        padding: 20px;
+    }
+}
