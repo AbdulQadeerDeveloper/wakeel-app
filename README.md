@@ -34,7 +34,7 @@ Builds the app for production to the `build` folder.\
   - :heavy_minus_sign: REMOVE: delete the node_modules folder
   - :bug: BUGFIX: fix addFinction
   - :books: DOC: update readme.md
-  - :art:  COSMETICS: change the h1 font-size
+  - :art: STYLE: change the h1 font-size
   - :construction: WIP: multipley functionality added
   - :package: PACKAGE: update package.json
   - :ok_hand: IMPROVENT: improve the logic of add functiuonality
