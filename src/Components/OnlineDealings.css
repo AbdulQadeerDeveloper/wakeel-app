@@ -75,8 +75,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.oservice-icon {
+    font-size: 24px;
 }
 
 .oservice {
@@ -85,21 +89,22 @@
 }
 
 .oservice span {
-    padding: 0px 20px;
+    padding-left: 20px;
+    margin-top: -8px;
     letter-spacing: 1.2px;
 }
 
 .oservice-detail {
-    padding: 10px 40px;
+    padding: 5px 40px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .border {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 769px) {
+@media(max-width: 1024px) {
     .odealings {
         padding: 10px;
     }
@@ -110,15 +115,21 @@
 
     .odealings-img .img-box {
         padding: 0px;
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
     }
 
     .odealings-img .img-box img {
-        height: 320px;
+        height: 300px;
     }
 
 
+    .online-dealings .odealings {
+        padding: 10px;
+    }
+    .odealings .global-heading{
+        margin-bottom: 20px;
+    }
     .oservice {
         padding: 10px 0px;
     }
@@ -127,21 +138,34 @@
         font-size: 16px;
     }
 
+    .oservice-icon {
+        font-size: 18px;
+    }
+
     .oservice span {
+        padding-left: 10px;
         letter-spacing: 1px;
     }
 
     .oservice-detail {
-        padding: 5px 35px;
-        font-size: 10px;
-        font-weight: 600;
+        padding: 0px;
+        padding-left: 30px;
+        padding-right: 10px;
+        font-size: 14px;
     }
 }
 
-@media(max-width: 426px) {
+@media(max-width: 780px) {
+    .oservice-detail {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 620px) {
     .online-dealings {
         width: 100%;
         display: block;
+        padding: 20px;
     }
 
     .online-dealings .odealings-img {
@@ -155,13 +179,13 @@
 
 
     .odealings-img .img-box {
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
         margin-bottom: 30px;
     }
 
     .odealings-img .img-box img {
-        height: 240px;
+        height: 220px;
     }
 
     .online-dealings .odealings {
@@ -170,29 +194,29 @@
     }
 
     .oservice-detail {
-        padding: 10px;
-        padding-left: 35px;
+        padding-left: 30px;
     }
 }
 
 @media(max-width: 376px) {
     .odealings-img .img-box {
-        width: 200px;
-        height: 200px;
+        width: 175px;
+        height: 175px;
     }
 
     .odealings-img .img-box img {
-        height: 220px;
+        height: 190px;
     }
 }
 
 @media(max-width: 321px) {
     .odealings-img .img-box {
-        width: 165px;
-        height: 165px;
+        width: 115px;
+        height: 115px;
     }
 
     .odealings-img .img-box img {
-        height: 180px;
+        height: 145px;
+        margin-left: 6px;
     }
 }

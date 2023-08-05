@@ -19,9 +19,9 @@ const OnlineDealings = () => (
                 <h1 className='global-heading'>Online Dealings</h1>
                 <div className='offered-services'>
                     {OnlineDealingsData.map((item) => (
-                        <div key={item.id} className={`oservice ${item.id !== OnlineDealingsData.length ? 'border': ''}`}>
+                        <div key={item.id} className={`oservice ${item.id !== OnlineDealingsData.length ? 'border' : ''}`}>
                             <div className='oservice-name'>
-                                {item.icon}
+                                <div className='oservice-icon'>{item.icon}</div>
                                 <span className='global-green'>{item.text}</span>
                             </div>
                             <div className='oservice-detail'>

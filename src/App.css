@@ -1,14 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'Alumni Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -29,7 +25,8 @@
 .global-btn {
   padding: 10px 25px;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 500;
   border: none;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
   background-color: #ca9d3e;
@@ -60,8 +57,8 @@
 }
 
 .global-btn span {
-  font-weight: 900;
-  padding-left: 20px;
+  font-weight: 500;
+  padding-left: 10px;
 }
 
 .global-spacer {
@@ -86,9 +83,9 @@
 }
 
 .global-heading {
-  font-size: 40px;
-  font-weight: 900;
-  color: #000;
+  font-size: 36px !important;
+  font-weight: 500 !important;
+  color: rgb(3, 218, 3);
   position: relative;
   width: fit-content;
 }
@@ -96,17 +93,19 @@
 .global-heading::after {
   content: '';
   width: 75%;
-  height: 2px;
+  height: 2.5px;
   position: absolute;
   background-color: #ca9d3e;
-  border-radius: 5px;
+  border-radius: 10px;
   bottom: -5px;
   left: 0;
   transition: width 0.3s;
 }
 
 .global-paragraph {
-  font-size: 24px;
+  font-size: 22px;
+  letter-spacing: 1.05px;
+  font-weight: 300 !important;
   color: #000;
 }
 
@@ -151,12 +150,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-weight: 500;
+  font-weight: 200;
   height: 40px;
   background-color: rgb(26, 26, 26);
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1.1px;
   color: #fff;
+  z-index: 9999;
 }
 
 .secondary-nav .header-paragraph {
@@ -265,8 +265,8 @@
 .navbar .navbar-menu .navbar-link {
   text-decoration: none;
   font-size: 24px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
   margin: 0px 20px;
   position: relative;
 }
@@ -347,12 +347,14 @@
   transform: rotate(45deg);
   width: 30px;
 }
-
+.download-btn a{
+  text-decoration: none !important;
+}
 
 /* ------------------------ Hero Section ---------------------- */
 .hero-section {
   width: 100%;
-  height: 100vh;
+  height: 600px;
   display: flex;
   margin-top: -80px;
   background-color: rgb(10, 19, 10);
@@ -373,12 +375,15 @@
 }
 
 .left-side h1 {
-  font-size: 75px;
+  font-size: 70px;
+  font-weight: 300 !important;
+  padding-bottom: 20px;
   color: white;
   font-weight: bolder;
 }
 
 .left-side p {
+  font-weight: 100 !important;
   color: white;
 }
 
@@ -391,9 +396,8 @@
 }
 
 .right-side .img-box {
-  width: 400px;
-  height: 400px;
-  padding: 20px;
+  width: 380px;
+  height: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,7 +416,7 @@
 }
 
 .img-box img {
-  height: 450px;
+  height: 420px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -449,6 +453,10 @@
 
 .service-card {
   width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   margin: 20px;
   border: 1px solid #ddd;
@@ -466,21 +474,21 @@
 .service-card h3 {
   margin: 0;
   font-size: 28px;
-  font-weight: 900;
+  font-weight: 500;
   color: #ca9d3e;
 }
 
 .service-card p {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 300 !important;
   color: #000;
   font-weight: 600;
 }
 
 .service-card .global-btn {
   margin: 20px 0px;
-  font-weight: bolder;
-  letter-spacing: 1.1px;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -490,7 +498,6 @@
 
 .service-icon {
   font-size: 48px;
-  color: #007bff;
   margin-bottom: 10px;
 }
 
@@ -536,7 +543,9 @@
 
 .my-site-details .my-site-description {
   padding: 50px 200px;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 1.05px;
+  font-weight: 200;
   text-align: center;
 }
 
@@ -558,7 +567,8 @@
 }
 
 .my-section-title {
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
   color: rgb(202, 157, 62);
   padding-bottom: 16px;
 }
@@ -577,13 +587,16 @@
   width: 30%;
   padding: 12px 0;
   font-size: 18px;
+  font-weight: 200;
   cursor: pointer;
 }
 
 .my-copyright {
   padding: 1rem 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  font-weight: 100;
   color: white;
   border-top: 1px solid #ffffff61;
 }
@@ -615,6 +628,10 @@
   gap: 30px;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .page-not-found .page-404-heading {
@@ -622,20 +639,22 @@
 }
 
 .page-404-heading h1 {
-  font-size: 150px;
-  font-weight: bolder;
+  font-size: 160px;
+  font-weight: 400;
 }
 
 .page-404-heading h2 {
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .page-not-found p {
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .page-not-found .global-btn {
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 /* ------------------------ Blog-Post Section ---------------------- */
@@ -645,7 +664,7 @@
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 40px;
 }
 
@@ -674,7 +693,7 @@
 
 
 /* ------------------------ Tablet Mode ---------------------- */
-@media(max-width: 769px) {
+@media(max-width: 1024px) {
   .desktop {
     display: none !important;
   }
@@ -728,7 +747,8 @@
   }
 
   .hero-section {
-    height: 110vh !important;
+    margin-top: -60px;
+    height: 500px;
   }
 
   .hero-section .left-side {
@@ -736,12 +756,12 @@
   }
 
   .left-side h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   .left-side p {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .right-side .img-box {
@@ -800,6 +820,7 @@
   }
 
   .mob-navbar-menu {
+    width: 100%;
     display: block;
     padding: 10px 25px;
     list-style: none;
@@ -813,7 +834,7 @@
 
   .mob-navbar-menu .navbar-link li {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
     margin: 20px 0px;
   }
@@ -836,7 +857,15 @@
     display: block !important;
   }
 
-  .global-btn {
+  .mob-download-btn {
+    width: 100%;
+  }
+
+  .mob-download-btn a {
+    text-decoration: none !important;
+  }
+
+  .mob-download-btn .global-btn {
     padding: 10px 20px;
     font-size: 22px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
@@ -850,9 +879,10 @@
     padding-left: 15px;
   }
 
-  .hero-section {
-    height: 150vh;
+  .global-paragraph {
+    font-size: 16px;
   }
+
 
   .footer-top .my-site-details {
     padding: 2rem 10px;
@@ -865,7 +895,7 @@
 
   .my-site-details .my-site-description {
     padding: 30px 0px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .my-site-details .my-social-icons {
@@ -884,11 +914,11 @@
 
   .my-footer-links .my-list-item {
     padding: 8px 0px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .my-copyright {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .page-404-heading h1 {
@@ -904,7 +934,7 @@
   }
 
   .blog-post .global-heading {
-    font-size: 30px;
+    font-size: 24px !important;
   }
 
   .blog-post .blog-img {
@@ -913,7 +943,7 @@
 }
 
 /* ------------------------ Mobile Mode ---------------------- */
-@media(max-width: 426px) {
+@media(max-width: 620px) {
   .mobile {
     display: block;
   }
@@ -932,23 +962,36 @@
     padding: 0px 4px;
   }
 
-  .global-btn {
-    padding: 8px 15px;
+  .mob-download-btn .global-btn {
+    padding: 8px 12px;
     font-size: 18px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .global-btn {
+    padding: 6px 12px;
+    display: block;
+    font-size: 16px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
   }
 
 
   .global-btn .btn-icon {
     font-size: 16px;
+    margin-bottom: -2px;
   }
 
   .global-btn span {
-    padding-left: 12px;
+    font-size: 16px;
+  }
+
+  .mob-navbar-menu .navbar-link li {
+    font-size: 24px;
   }
 
   .hero-section {
-    height: 150vh !important;
+    height: 700px !important;
   }
 
   .center-flex {
@@ -965,6 +1008,10 @@
   .hero-section .left-side {
     margin-top: 100px;
     padding: 30px;
+  }
+
+  .hero-section .left-side p {
+    font-size: 16px !important;
   }
 
   .hero-section .right-side {
@@ -987,11 +1034,11 @@
   }
 
   .global-heading {
-    font-size: 30px;
+    font-size: 26px !important;
   }
 
   .global-paragraph {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .services-section .global-paragraph {
@@ -1003,7 +1050,7 @@
   }
 
   .my-site-details .my-site-description {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .footer-top .my-footer-links {
@@ -1020,7 +1067,7 @@
   }
 
   .my-footer .my-copyright {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .page-404-heading h1 {
@@ -1043,7 +1090,8 @@
     font-size: 22px !important;
     text-align: left;
   }
-  .blog-post .global-heading::after{
+
+  .blog-post .global-heading::after {
     display: none;
   }
 
@@ -1059,11 +1107,28 @@
 }
 
 @media(max-width: 321px) {
+  .secondary-nav {
+    font-size: 9px;
+  }
+
+  .hero-section {
+    height: 800px !important;
+
+  }
+
   .hero-section .left-side {
     margin-top: 70px;
   }
 
+  .hero-section .right-side {
+    margin-top: 40px;
+  }
+
   .blog-post .global-heading {
     font-size: 12px;
+  }
+
+  .global-paragraph {
+    font-size: 14px;
   }
 }
