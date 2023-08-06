@@ -1,5 +1,5 @@
 import React from 'react'
-import { Profile } from '../Images'
+import { home } from '../Images'
 
 const HeroSection = () => {
     return (
@@ -15,13 +15,13 @@ const HeroSection = () => {
                 <div className='center-flex container'>
                     <div className='left-side'>
                         <h1>Hire your Lawyer online now!</h1>
-                        <p className='global-paragraph'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, voluptatem dicta tempore eum fuga iusto ullam eos quos doloribus porro! Molestiae voluptatibus obcaecati nobis harum eligendi adipisci hic delectus accusantium debitis cumque?</p>
+                        <p className='hero-paragraph'>Hiring your lawyer has never been easier! With our user-friendly online platform, you can now access top-notch legal expertise right from the comfort of your home or office. Our extensive network of skilled attorneys covers a wide range of practice areas, ensuring you find the perfect match for your specific legal needs. Simply browse through our profiles, read client reviews, and schedule a consultation with the lawyer of your choice. Our secure and efficient platform guarantees a seamless experience, allowing you to focus on what matters most – your case. Say goodbye to traditional hassles and embrace the convenience of hiring your lawyer online today!</p>
                     </div>
 
                     <div className='right-side'>
                         <div className="img-box">
                             <div className='hero-bg'></div>
-                            <img src={Profile} alt="profile" />
+                            <img src={home} alt="profile" />
                         </div>
                     </div>
                 </div>
