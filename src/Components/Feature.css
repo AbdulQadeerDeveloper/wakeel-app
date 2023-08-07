@@ -61,7 +61,9 @@
 }
 
 @media(max-width: 620px) {
+
     .feature {
+        padding: 10px;
         flex-direction: column;
     }
 
@@ -69,28 +71,36 @@
         flex-direction: column-reverse;
     }
 
+    .feature-detail {
+        width: 100%;
+        padding: 10px;
+    }
+
     .feature-detail .feature-text-box {
         width: 100%;
         padding: 20px;
     }
+
     .feature-img img {
         width: 150px;
     }
 }
+
 @media(max-width: 321px) {
     .feature {
         padding: 10px;
         width: 100%;
     }
 
-    .feature-detail{
+    .feature-detail {
         width: 100%;
         padding: 10px;
     }
+
     .feature-detail .feature-text-box {
         padding: 10px;
     }
-    
+
     .feature-img img {
         width: 100px;
     }

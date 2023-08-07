@@ -13,8 +13,14 @@
   justify-content: center;
 }
 
-.About-col .image-box {
-  width: 100%;
+.about-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-right .image-box {
+  width: 400px;
   background: url('../Images/circle-hollow.png');
   background-position: center center;
   background-size: contain;
@@ -24,9 +30,8 @@
   justify-content: center;
 }
 
-.About-col .image-box img {
-  width: 100%;
-  margin-left: -10px;
+.about-right .image-box img {
+  height: 400px;
 }
 
 .About-tablet-col {
@@ -97,6 +102,25 @@
     font-size: 16px;
     padding-bottom: 10px;
   }
+
+  .about-right .image-box {
+    width: 350px;
+  }
+
+  .about-right .image-box img {
+    height: 350px;
+  }
+}
+
+
+@media(max-width:720px) {
+  .about-right .image-box {
+    width: 300px;
+  }
+
+  .about-right .image-box img {
+    height: 300px;
+  }
 }
 
 @media(max-width:620px) {
@@ -116,5 +140,26 @@
   .About-tablet-col .row,
   .About-tablet-col .desktop {
     width: 100%;
+  }
+}
+
+
+@media(max-width:375px) {
+  .about-right .image-box {
+    width: 250px;
+  }
+
+  .about-right .image-box img {
+    height: 250px;
+  }
+}
+
+@media(max-width:321px) {
+  .about-right .image-box {
+    width: 220px;
+  }
+
+  .about-right .image-box img {
+    height: 220px;
   }
 }

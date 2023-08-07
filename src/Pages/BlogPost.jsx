@@ -1,5 +1,4 @@
 import React from 'react';
-import { messageImage } from '../Images';
 
 const BlogPost = ({ post }) => {
 
@@ -14,11 +13,9 @@ const BlogPost = ({ post }) => {
 
             <div className='global-container blog-post'>
 
-                <h1 className='global-heading'>New Privacy Features: Silence Unknown Caller and Privacy Checkup</h1>
+                <h1 className='global-heading'>{post.heading}</h1>
                 <div className='center-flex'>
-                    <div className='blog-img'>
-                        <img src={messageImage} alt="blog-img" />
-                    </div>
+                    <img src={post.img} alt="blog-img" />
                 </div>
                 <p className='global-paragraph'>{post.paragraph + ' ' + post.detail}</p>
             </div>

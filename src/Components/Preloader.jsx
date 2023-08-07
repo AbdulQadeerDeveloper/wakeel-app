@@ -31,7 +31,7 @@ function Preloader({ isLoading }) {
         backgroundPosition: "center center",
         backgroundClip: "text",
         fontSize: "100px",
-        fontWeight: "bold",
+        fontWeight: "400",
         textAlign: "center",
         transition: "opacity 1s ease-in-out, background-position 1s linear",
         opacity: isLoading ? 1 : 0,
@@ -49,8 +49,9 @@ function Preloader({ isLoading }) {
     };
 
     const percentageStyle = {
-        fontSize: "24px",
-        fontWeight: "bold",
+        fontSize: "18px",
+        fontWeight: "300",
+        fontFamily: 'sans-serif',
         textAlign: "center",
         marginTop: "20px",
     };

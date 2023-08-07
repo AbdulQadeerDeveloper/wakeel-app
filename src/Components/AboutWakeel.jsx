@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { WakeelMainPage } from "../Images";
+import { Profile } from "../Images";
 
 
 const AboutWakeel = () => {
@@ -10,24 +10,15 @@ const AboutWakeel = () => {
             <div className="row">
                 <h3 className="heading">Our Mission</h3>
                 <p className="para">
-                    WhatsApp started as an alternative to SMS. Our product now
-                    supports sending and receiving a variety of media: text, photos,
-                    videos, documents, and location, as well as voice calls. Some of
-                    your most personal moments are shared with WhatsApp, which is
-                    why we built end-to-end encryption into our app. Behind every
-                    product decision is our desire to let people communicate
-                    anywhere in the world without barriers.
+                    Empowering Your Legal Journey - At our app, our mission is simple – to empower individuals with reliable legal advice and support. We believe in demystifying the complexities of the law, making it accessible to everyone, anytime, and anywhere.
+
                 </p>
             </div>
 
             <div className="row">
                 <h3 className="heading">Our Team</h3>
                 <p className="para">
-                    WhatsApp was founded by Jan Koum and Brian Acton who had
-                    previously spent 20 years combined at Yahoo. WhatsApp joined
-                    Facebook in 2014, but continues to operate as a separate app
-                    with a laser focus on building a messaging service that works
-                    fast and reliably anywhere in the world.
+                    Experts You Can Trust - Meet the dedicated team of skilled attorneys behind our app. With a passion for justice and a commitment to excellence, our experts are here to guide you through your legal challenges and ensure your rights are protected.
                 </p>
             </div>
         </>
@@ -46,19 +37,14 @@ const AboutWakeel = () => {
                     {/* Left Side */}
                     <div className="About-col About-tablet-col">
                         <div className="row">
-                            <h1 className="global-heading">About Wakeel App</h1>
+                            <h1 className="global-heading">About Wakiel App</h1>
                             <h3 className="heading">Our App</h3>
                             <div className="para">
-                                More than 2 billion people in over 180 countries use WhatsApp1
-                                to stay in touch with friends and family, anytime and anywhere.
-                                WhatsApp is free2 and offers simple, secure, reliable messaging
-                                and calling, available on phones all over the world.
+                                Access Legal Expertise at Your Fingertips. Discover the ultimate online legal advisor that puts the power of legal knowledge in your hands. Our app provides instant access to:
 
                                 <ul className="bullets">
-                                    <li>
-                                        And yes, the name WhatsApp is a pun on the phrase What's Up.
-                                    </li>
-                                    <li> Data charges may apply.</li>
+                                    <li>Experienced attorneys</li>
+                                    <li>Making legal guidance just a tap away</li>
                                 </ul>
                             </div>
                         </div>
@@ -69,9 +55,9 @@ const AboutWakeel = () => {
                     </div>
 
                     {/* Right Side */}
-                    <div className="About-col">
+                    <div className="About-col about-right">
                         <div className="image-box">
-                            <img src={WakeelMainPage} alt="about" />
+                            <img src={Profile} alt="about" />
                         </div>
                     </div>
                 </div>

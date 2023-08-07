@@ -40,17 +40,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    margin-left: 5px;
+    margin-left: 0px !important;
 }
 
 .odealings-img .img-box .hero-bg {
     background: linear-gradient(to bottom, transparent, rgba(15, 43, 26, 0.2));
 }
 
-.odealings-img .img-box img {
-    margin-left: 20px;
-
-}
 
 .online-dealings .odealings {
     width: 50%;
@@ -109,10 +105,6 @@
         padding: 10px;
     }
 
-    .odealings-img .img-box img {
-        margin-left: 10px;
-    }
-
     .odealings-img .img-box {
         padding: 0px;
         width: 250px;
@@ -169,10 +161,6 @@
     }
 
     .online-dealings .odealings-img {
-        margin: 0px !important;
-    }
-
-    .online-dealings .odealings-img {
         width: 100%;
         height: 50%;
     }
@@ -217,6 +205,5 @@
 
     .odealings-img .img-box img {
         height: 145px;
-        margin-left: 6px;
     }
 }

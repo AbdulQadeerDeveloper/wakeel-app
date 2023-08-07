@@ -89,7 +89,7 @@ const PrimaryNav = () => {
           ))}
 
           <div className='mob-download-btn'>
-            <Link to='https://www.google.com' target='_blank'>
+            <Link to='https://play.google.com/store/apps' target='_blank'>
               <button
                 type="button"
                 className="center-flex global-btn"
@@ -104,7 +104,7 @@ const PrimaryNav = () => {
 
       {/* Download Button */}
       <div className="center-flex download-btn">
-        <Link to='https://www.google.com' target='_blank'>
+        <Link to='https://play.google.com/store/apps' target='_blank'>
           <button type="button" className="center-flex global-btn">
             <ImDownload className="btn-icon" />
             <span>Download</span>
