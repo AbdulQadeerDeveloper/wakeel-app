@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import home from "./home.png";
-import Profile from "./profile.png";
+import Profile from "./Profile.png";
 import Services from "./wakiels-list.png";
 import WakeelAccount from "./userprofile.png";
 

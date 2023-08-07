@@ -349,7 +349,7 @@
 }
 
 .download-btn a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 /* ------------------------ Hero Section ---------------------- */
@@ -386,7 +386,7 @@
 .left-side .hero-paragraph {
   font-size: 16px;
   letter-spacing: 1.05px;
-  font-weight: 200 !important;
+  font-weight: 200;
   color: white;
 }
 
@@ -399,8 +399,8 @@
 }
 
 .right-side .img-box {
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -419,7 +419,7 @@
 }
 
 .img-box img {
-  height: 420px;
+  height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1105,7 +1105,7 @@
 
 @media(max-width: 376px) {
   .hero-section {
-    height: 800px !important;
+    height: 800px;
   }
 
   .left-side .hero-paragraph {

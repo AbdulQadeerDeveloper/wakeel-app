@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7adff06.css",
-    "main.js": "/static/js/main.4429d757.js",
-    "static/media/circle-hollow.png": "/static/media/circle-hollow.ce2eaf0f59e9f14f6e10.png",
-    "static/media/emoji.png": "/static/media/emoji.0c749c3f348bb46028d5.png",
-    "static/media/Services.png": "/static/media/Services.231a8e7b20033ca3759e.png",
-    "static/media/Profile.png": "/static/media/Profile.142e7b83201c405ec2f9.png",
-    "static/media/Login.png": "/static/media/Login.9ae3d32a1522e1601799.png",
-    "static/media/WakeelMainPage.png": "/static/media/WakeelMainPage.4915ae88b78ba3646f12.png",
-    "static/media/WakeelAccount.png": "/static/media/WakeelAccount.14f511994662d8809914.png",
-    "static/media/image-two.jpg": "/static/media/image-two.625eb45d14d984b376a7.jpg",
-    "static/media/message-image.jpeg": "/static/media/message-image.c0ab9a177d56452bbeb3.jpeg",
-    "static/media/divorce.svg": "/static/media/divorce.e229acfe599abc9443d25cdb14ba1cab.svg",
-    "static/media/childCustody.svg": "/static/media/childCustody.7648509c0c13eae7498ae4bb77dee3cd.svg",
-    "static/media/property.svg": "/static/media/property.f7e8908892ab15b5a460cb530b721ea2.svg",
-    "static/media/cheque.svg": "/static/media/cheque.7d3cccfc764aaf89344a74f7983330b5.svg",
-    "static/media/supremecourt.svg": "/static/media/supremecourt.ee9219ebca2cafb2da49f054ae0819ca.svg",
-    "static/media/criminal.svg": "/static/media/criminal.9d2c81e462a94f00bc279a9838000c28.svg",
+    "main.css": "/static/css/main.111a4215.css",
+    "main.js": "/static/js/main.9398459a.js",
+    "static/media/wakiels-list.png": "/static/media/wakiels-list.07aa87b0f7addf6288ca.png",
+    "static/media/userprofile.png": "/static/media/userprofile.696a4653f66badbd0ae3.png",
+    "static/media/home.png": "/static/media/home.ed0d02d86829d5380c3f.png",
+    "static/media/Profile.png": "/static/media/Profile.58c3bd14d9fa00ac2d75.png",
+    "static/media/shedule.png": "/static/media/shedule.1c4d7dbe1709f0beae75.png",
+    "static/media/chat.png": "/static/media/chat.4249ddad8f337f3dcd0d.png",
+    "static/media/shedule-2.png": "/static/media/shedule-2.e206ccd0a5e506dd9bb2.png",
+    "static/media/circle-hollow.png": "/static/media/circle-hollow.4ec0cf7a534a88c172df.png",
+    "static/media/emoji.png": "/static/media/emoji.0ada6ea4934b32a95e94.png",
+    "static/media/image-two.jpg": "/static/media/image-two.d4372e5541a49836edf5.jpg",
+    "static/media/message-image.jpeg": "/static/media/message-image.1cda95bb199d08094bd3.jpeg",
     "index.html": "/index.html",
-    "main.f7adff06.css.map": "/static/css/main.f7adff06.css.map",
-    "main.4429d757.js.map": "/static/js/main.4429d757.js.map"
+    "main.111a4215.css.map": "/static/css/main.111a4215.css.map",
+    "main.9398459a.js.map": "/static/js/main.9398459a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7adff06.css",
-    "static/js/main.4429d757.js"
+    "static/css/main.111a4215.css",
+    "static/js/main.9398459a.js"
   ]
 }
