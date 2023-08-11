@@ -35,6 +35,7 @@
       "react/prop-types": ["off"],
       "react/no-array-index-key": ["off"],
       "object-curly-newline": ["off"],
-      "max-len": ["off", { "code": 200 }]
+      "max-len": ["off", { "code": 200 }],
+      "react/self-closing-comp": ["off"]
     }
   }

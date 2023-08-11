@@ -827,18 +827,19 @@
     transform: translateY(-25px);
   }
 
-  .mob-navbar-menu .navbar-link li {
+  .mob-navbar-menu .navbar-link  {
     font-size: 28px;
     font-weight: 400;
     color: black;
     margin: 20px 0px;
+    
   }
 
   .mob-navbar-menu .navbar-link .nav-items {
     transform: translateY(-20px);
     opacity: 0;
     transition: 0.3s ease-in-out;
-
+    background-color: none;
   }
 
   .mob-navbar-active .navbar-link .nav-items {

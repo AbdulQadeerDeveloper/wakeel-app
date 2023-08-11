@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint --fix  --ignore-path .gitignore \"src/**/*.{js,jsx}\"",
     "prepare": "husky install",
     "format": "prettier --write --ignore-path .gitignore \"**/*.{js,json,scss,css,html,jsx}\""
   },

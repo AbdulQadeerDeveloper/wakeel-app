@@ -8,15 +8,4 @@ import OnlineDealings from "./OnlineDealings";
 import ConnectWithUs from "./ConnectWithUs";
 import Preloader from "./Preloader";
 
-
-export {
-    Header,
-    Footer,
-    HeroSection,
-    AboutWakeel,
-    Services,
-    Feature,
-    OnlineDealings,
-    ConnectWithUs,
-    Preloader,
-}
+export { Header, Footer, HeroSection, AboutWakeel, Services, Feature, OnlineDealings, ConnectWithUs, Preloader };
