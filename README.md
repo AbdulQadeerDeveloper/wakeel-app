@@ -49,5 +49,5 @@ Builds the app for production to the `build` folder.\
   - feature
   - fixes
 
-  feature/topbar-add
-  fixes/topbar-heading-style
+  - feature/topbar-add
+  - fixes/topbar-heading-style
