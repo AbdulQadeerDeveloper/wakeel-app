@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ServicesData } from "../Data";
+import ServicesData from "../Data/ServicesData";
 
 function Services() {
   return (

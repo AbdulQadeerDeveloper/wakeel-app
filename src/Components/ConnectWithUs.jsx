@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
 import { useNavigate } from "react-router-dom";
 import "./ConnectWithUs.css";
-import { connectWithUs } from "../Data";
+import connectWithUs from "../Data/connectWithUs";
 
 function ConnectWithUs() {
   const [slides, setSlides] = useState(2);
@@ -31,19 +31,19 @@ function ConnectWithUs() {
 
   useEffect(() => {
     resizeSlider();
+    window.addEventListener("resize", resizeSlider);
+    return () => {
+      window.removeEventListener("resize", resizeSlider);
+    };
   }, []);
-
-  window.addEventListener("resize", () => {
-    resizeSlider();
-  });
 
   return (
     <section id="connect-with-us" className="global-container">
       <div className="global-spacer-mini"></div>
       <h1 className="global-heading">Connect With Us</h1>
-      <Swiper spaceBetween={space} slidesPerView={slides} navigation modules={[Navigation]} className="Swiper mySwiper">
-        {connectWithUs.map((card, i) => (
-          <SwiperSlide key={i} className="slider-card">
+      <Swiper spaceBetween={space} slidesPerView={slides} modules={[Navigation]} className="Swiper mySwiper">
+        {connectWithUs.map((card) => (
+          <SwiperSlide key={card.id} className="slider-card">
             <h1 className="card-heading">{card.heading}</h1>
             <p className="card-paragraph">{card.paragraph}</p>
             <button className="global-btn" onClick={() => navigate(card.link)}>

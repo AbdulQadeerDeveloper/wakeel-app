@@ -1,7 +1,7 @@
 import React from "react";
 import "./OnlineDealings.css";
 import { WakeelAccount } from "../Images";
-import { OnlineDealingsData } from "../Data";
+import OnlineDealingsData from "../Data/OnlineDealingsData";
 
 function OnlineDealings() {
   return (

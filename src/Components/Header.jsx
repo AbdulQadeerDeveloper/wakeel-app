@@ -1,6 +1,6 @@
 import React from "react";
-import PrimaryNav from "./PrimaryNav";
 import SecondaryNav from "./SecondaryNav";
+import PrimaryNav from "./PrimaryNav";
 
 function Header() {
   return (

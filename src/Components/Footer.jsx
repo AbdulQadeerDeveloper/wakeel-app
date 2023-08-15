@@ -1,41 +1,49 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FaDribbbleSquare, FaFacebookSquare, FaYoutubeSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
+import { Link, useNavigate } from "react-router-dom";
+import FooterLinkData from "../Data/FooterLinkData";
 import { logo } from "../Images";
-import { FooterLink } from "../Data";
 
 function Footer() {
+  const navigate = useNavigate();
+
   return (
     <footer className="my-footer">
       {/* Footer Top */}
       <div className="footer-top">
-        {/* Logo + Deatils */}
+        {/* Logo + Details */}
         <div className="my-site-details">
           <img src={logo} className="my-logo" alt="logo" />
           <p className="my-site-description">
-            Wakeel App provides a platform that allows skilled and experienced professionals to connect with clients looking for specific services. Wakeel App provides a platform that allows skilled
-            and experienced professionals to connect with clients looking for specific services. Wakeel App provides a platform that allows skilled and experienced professionals to connect with
-            clients looking for specific services.
+            {/* Your site description here */}
           </p>
           <div className="my-social-icons">
-            <FaFacebookSquare className="cursor-pointer" />
-            <FaInstagram className="cursor-pointer" />
-            <FaTwitterSquare className="cursor-pointer" />
-            <FaYoutubeSquare className="cursor-pointer" />
-            <FaDribbbleSquare className="cursor-pointer" />
+            {/* Social icons here */}
           </div>
         </div>
 
         {/* Footer Links */}
         <div className="my-footer-links">
           <div className="my-section">
-            <h1 className="my-section-title">{FooterLink.title}</h1>
+            <h1 className="my-section-title">Important Links</h1>
             <ul className="list-style">
-              {FooterLink.items.map((item) => (
-                <li className="my-list-item" key={item}>
-                  {item}
-                </li>
-              ))}
+              {
+                FooterLinkData.map((item) => (
+                  <div
+                    className="my-list-item cursor-pointer"
+                    role="button"
+                    tabIndex={0}
+                    key={item.link}
+                    onClick={() => navigate(item.link)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") {
+                        navigate(item.link);
+                      }
+                    }}
+                  >
+                    {item.title}
+                  </div>
+                ))
+              }
             </ul>
           </div>
         </div>
@@ -43,7 +51,7 @@ function Footer() {
 
       {/* Copyright */}
       <div className="my-copyright">
-        Copyright &copy; 2023
+        Copyright&copy; 2023
         <Link to="/" className="link-style">
           Wakeel App
         </Link>

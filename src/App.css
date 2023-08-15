@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Alumni Sans', sans-serif;
+  font-family: "Alumni Sans", sans-serif;
   scroll-behavior: smooth;
 }
-
 
 .global-bg {
   background-color: rgb(10, 31, 18);
@@ -91,7 +90,7 @@
 }
 
 .global-heading::after {
-  content: '';
+  content: "";
   width: 75%;
   height: 2.5px;
   position: absolute;
@@ -137,11 +136,9 @@
   object-fit: cover;
 }
 
-
 .mob-navbar {
   display: none !important;
 }
-
 
 /* ---------------------- Header ----------------------- */
 /* ---------------------- Secondary Header ----------------------- */
@@ -173,7 +170,7 @@
 }
 
 .app-name::after {
-  content: '';
+  content: "";
   width: 85%;
   height: 1px;
   position: absolute;
@@ -201,14 +198,12 @@
 .arrow-icon-left {
   margin-left: -7px;
   margin-top: 2px;
-
 }
 
 .arrow-icon-right {
   margin-right: -7px;
   margin-top: 4px;
 }
-
 
 /* ---------------------- Primary Header ----------------------- */
 .primary-nav {
@@ -242,7 +237,6 @@
   background-color: black;
 }
 
-
 .navbar {
   padding: 10px;
   width: 100%;
@@ -272,7 +266,7 @@
 }
 
 .navbar .navbar-menu .navbar-link::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   position: absolute;
@@ -282,7 +276,6 @@
   left: 0;
   transition: width 0.3s;
 }
-
 
 .navbar .navbar-menu .navbar-link:hover::after {
   width: 100%;
@@ -331,7 +324,6 @@
   width: 20px;
 }
 
-
 .toggle-active {
   background-color: transparent !important;
 }
@@ -361,7 +353,8 @@
   background-color: rgb(10, 19, 10);
 }
 
-.hero-section .left-side, .hero-section .right-side {
+.hero-section .left-side,
+.hero-section .right-side {
   width: 50%;
   /* height: 100%; */
   margin-top: 30px;
@@ -512,7 +505,6 @@
   font-size: 50px;
 }
 
-
 /* ----------------------- Footer Section ---------------------- */
 .my-footer {
   width: 100%;
@@ -610,7 +602,6 @@
   color: greenyellow;
 }
 
-
 /* ---------------------- Page Not Found --------------------- */
 .page-404 {
   position: fixed;
@@ -686,9 +677,8 @@
   width: 250px;
 }
 
-
 /* ------------------------ Tablet Mode ---------------------- */
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   .desktop {
     display: none !important;
   }
@@ -733,7 +723,8 @@
     padding: 10px;
   }
 
-  .navbar-menu, .download-btn {
+  .navbar-menu,
+  .download-btn {
     display: none !important;
   }
 
@@ -787,7 +778,8 @@
     background-color: black;
   }
 
-  .active-navbar::before, .active-navbar::after {
+  .active-navbar::before,
+  .active-navbar::after {
     background-color: black !important;
   }
 
@@ -825,14 +817,9 @@
     text-decoration: none;
     transition: 0.5s ease-in;
     transform: translateY(-25px);
-  }
-
-  .mob-navbar-menu .navbar-link  {
     font-size: 28px;
     font-weight: 400;
     color: black;
-    margin: 20px 0px;
-    
   }
 
   .mob-navbar-menu .navbar-link .nav-items {
@@ -840,6 +827,7 @@
     opacity: 0;
     transition: 0.3s ease-in-out;
     background-color: none;
+    margin: 20px 0px;
   }
 
   .mob-navbar-active .navbar-link .nav-items {
@@ -848,9 +836,8 @@
     transition: 0.3s ease-in-out;
   }
 
-
   .mob-navbar-menu {
-    display: block !important;
+    display: block;
   }
 
   .mob-download-btn {
@@ -878,7 +865,6 @@
   .global-paragraph {
     font-size: 16px;
   }
-
 
   .footer-top .my-site-details {
     padding: 2rem 10px;
@@ -938,14 +924,14 @@
   }
 }
 
-@media(max-width:750px) {
+@media (max-width: 750px) {
   .blog-post .global-heading::after {
     display: none;
   }
 }
 
 /* ------------------------ Mobile Mode ---------------------- */
-@media(max-width: 620px) {
+@media (max-width: 620px) {
   .mobile {
     display: block;
   }
@@ -970,14 +956,12 @@
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
   }
 
-
   .global-btn {
     padding: 6px 12px;
     display: block;
     font-size: 16px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
   }
-
 
   .global-btn .btn-icon {
     font-size: 16px;
@@ -1002,7 +986,8 @@
     padding-bottom: 30px;
   }
 
-  .hero-section .left-side, .hero-section .right-side {
+  .hero-section .left-side,
+  .hero-section .right-side {
     width: 100%;
     height: 50%;
   }
@@ -1029,7 +1014,6 @@
   .img-box img {
     height: 260px;
   }
-
 
   .services-section .services-top {
     padding: 25px;
@@ -1104,7 +1088,7 @@
   }
 }
 
-@media(max-width: 376px) {
+@media (max-width: 376px) {
   .hero-section {
     height: 800px;
   }
@@ -1115,15 +1099,13 @@
   }
 }
 
-
-@media(max-width: 321px) {
+@media (max-width: 321px) {
   .secondary-nav {
     font-size: 9px;
   }
 
   .hero-section {
     height: 800px !important;
-
   }
 
   .hero-section .left-side {
@@ -1148,5 +1130,186 @@
 
   .global-paragraph {
     font-size: 14px;
+  }
+}
+
+
+
+/* ------------------- FAQs ------------------------------ */
+/* FAQ Question Button */
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid rgb(157, 157, 157);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  text-align: left;
+}
+
+.accordion.active {
+  background-color: rgb(234, 234, 234);
+}
+
+/* Arrow Icon */
+.arrow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+/* FAQ Answer Panel */
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 20px;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-in-out;
+}
+
+.panel.open {
+  max-height: 500px;
+}
+
+.panel p {
+  padding: 20px 0;
+}
+
+/* FAQ Title */
+.faqs-title {
+  color: rgb(3, 218, 3);
+  text-align: center;
+  font-size: 36px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .accordion {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .panel {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* ------------------------- TermsAndConditions ----------------------------- */
+
+/* Terms Container */
+.terms-container {
+  background-color: #f9f9f9;
+}
+
+/* Terms Title */
+.terms-title {
+  color: rgb(3, 218, 3);
+  text-align: center;
+  font-size: 36px;
+
+}
+
+/* Terms Content */
+.terms-content {
+  padding: 10px;
+}
+
+/* Terms Paragraph */
+.terms-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .terms-paragraph {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+/* ------------------ PrivacyPolicy ----------------------*/
+
+/* Privacy Policy Container */
+.privacy-policy-container {
+  background-color: #f9f9f9;
+}
+
+/* Global Spacer - Header Setting */
+.privacy-policy-container .header-setting {
+  margin-bottom: 20px;
+}
+
+/* Privacy Policy Title */
+.privacy-policy-title {
+  color: rgb(3, 218, 3);
+  text-align: center;
+  font-size: 36px;
+
+}
+
+/* Privacy Content */
+.privacy-policy-content {
+  padding: 10px;
+}
+
+/* Privacy Paragraph */
+.privacy-policy-content .privacy-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Privacy Section */
+.privacy-section {
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+
+/* Privacy Section Title */
+.privacy-section .privacy-section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Privacy Contact */
+.privacy-contact {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.privacy-paragraph {
+  font-style: italic;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .privacy-policy-content .privacy-paragraph {
+    font-size: 16px;
   }
 }
