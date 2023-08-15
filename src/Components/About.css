@@ -21,7 +21,7 @@
 
 .about-right .image-box {
   width: 400px;
-  background: url('../Images/circle-hollow.png');
+  background: url("../Images/circle-hollow.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -59,7 +59,6 @@
   padding-left: 15px;
   padding-top: 20px;
   list-style: circle;
-
 }
 
 .bullets li::marker {
@@ -74,8 +73,7 @@
   padding-bottom: 30px;
 }
 
-@media(max-width: 1024px) {
-
+@media (max-width: 1024px) {
   .About-col {
     width: 50%;
   }
@@ -112,8 +110,7 @@
   }
 }
 
-
-@media(max-width:720px) {
+@media (max-width: 720px) {
   .about-right .image-box {
     width: 300px;
   }
@@ -123,7 +120,7 @@
   }
 }
 
-@media(max-width:620px) {
+@media (max-width: 620px) {
   .WaAboutWakeel {
     display: block;
   }
@@ -143,8 +140,7 @@
   }
 }
 
-
-@media(max-width:375px) {
+@media (max-width: 375px) {
   .about-right .image-box {
     width: 250px;
   }
@@ -154,7 +150,7 @@
   }
 }
 
-@media(max-width:321px) {
+@media (max-width: 321px) {
   .about-right .image-box {
     width: 220px;
   }
