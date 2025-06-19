@@ -1,5 +1,6 @@
-import React from "react";
-import privacylist from "../Data/privacylist";
+/* eslint-disable quotes */
+import React from 'react';
+import privacylist from '../Data/privacylist';
 
 function PrivacyPolicy() {
   return (
@@ -13,12 +14,8 @@ function PrivacyPolicy() {
         <div className="privacy-policy-content">
           {privacylist.map((item) => (
             <div className="privacy-section" key={item.id}>
-              <h3 className="heading">
-                {item.title}
-              </h3>
-              <p className="privacy-paragraph global-paragraph">
-                {item.content}
-              </p>
+              <h3 className="heading">{item.title}</h3>
+              <p className="privacy-paragraph global-paragraph">{item.content}</p>
             </div>
           ))}
         </div>

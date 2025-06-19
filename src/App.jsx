@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Preloader from "./Components/Preloader";
-import Home from "./Pages/Home";
-import BlogPost from "./Pages/BlogPost";
-import NotFound from "./Pages/NotFound";
-import FooterLinkData from "./Data/FooterLinkData";
-import connectWithUs from "./Data/connectWithUs";
+/* eslint-disable quotes */
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Preloader from './Components/Preloader';
+import Home from './Pages/Home';
+import BlogPost from './Pages/BlogPost';
+import NotFound from './Pages/NotFound';
+import FooterLinkData from './Data/FooterLinkData';
+import connectWithUs from './Data/connectWithUs';
 
 function ScrollToTop(props) {
   const location = useLocation();

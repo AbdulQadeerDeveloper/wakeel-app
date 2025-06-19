@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
-import React, { useState, useEffect } from "react";
-import { logo } from "../Images";
+/* eslint-disable quotes */
+import React, { useState, useEffect } from 'react';
+import { logo } from '../Images';
 
 function Preloader({ isLoading }) {
   const [loadingPercentage, setLoadingPercentage] = useState(0);
@@ -24,42 +25,42 @@ function Preloader({ isLoading }) {
   }, [isLoading]);
 
   const logoStyle = {
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
-    backgroundClip: "text",
-    fontSize: "100px",
-    fontWeight: "400",
-    textAlign: "center",
-    transition: "opacity 1s ease-in-out, background-position 1s linear",
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    backgroundClip: 'text',
+    fontSize: '100px',
+    fontWeight: '400',
+    textAlign: 'center',
+    transition: 'opacity 1s ease-in-out, background-position 1s linear',
     opacity: isLoading ? 1 : 0,
-    position: "fixed",
-    pointerEvents: "none",
+    position: 'fixed',
+    pointerEvents: 'none',
     top: 0,
     left: 0,
-    width: "100%",
-    height: "100%",
-    background: "#fff",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    width: '100%',
+    height: '100%',
+    background: '#fff',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     zIndex: 9999,
   };
 
   const percentageStyle = {
-    fontSize: "18px",
-    fontWeight: "300",
-    fontFamily: "sans-serif",
-    textAlign: "center",
-    marginTop: "20px",
+    fontSize: '18px',
+    fontWeight: '300',
+    fontFamily: 'sans-serif',
+    textAlign: 'center',
+    marginTop: '20px',
   };
 
   const Image = {
-    width: "155px",
-    height: "55px",
+    width: '155px',
+    height: '55px',
     backgroundImage: `linear-gradient(to top , transparent ${loadingPercentage}%, rgba(255,255,255,0.8) ${loadingPercentage}%), url(${logo})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "contain",
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'contain',
   };
   return (
     <div style={logoStyle}>
@@ -68,7 +69,6 @@ function Preloader({ isLoading }) {
           <div style={Image} />
           <div style={percentageStyle}>
             Loading
-            {" "}
             {loadingPercentage}
             %
           </div>

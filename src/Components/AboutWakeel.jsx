@@ -1,6 +1,7 @@
-import React from "react";
-import "./About.css";
-import { Profile } from "../Images";
+/* eslint-disable quotes */
+import React from 'react';
+import './About.css';
+import { Profile } from '../Images';
 
 function Responsive() {
   return (

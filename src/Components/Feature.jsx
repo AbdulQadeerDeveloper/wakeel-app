@@ -1,11 +1,12 @@
-import "./Feature.css";
-import featureSection from "../Data/featureSection";
+/* eslint-disable quotes */
+import './Feature.css';
+import featureSection from '../Data/featureSection';
 
 function Feature() {
   return (
     <section id="features" className="feaures">
       {featureSection.map((feature) => (
-        <div key={feature.id} className={`feature ${feature.id === 2 ? "feature-reverse" : ""}`}>
+        <div key={feature.id} className={`feature ${feature.id === 2 ? 'feature-reverse' : ''}`}>
           <div className="feature-detail">
             <div className="feature-text-box">
               <h1 className="global-heading">

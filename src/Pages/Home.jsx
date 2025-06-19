@@ -1,10 +1,11 @@
-import React from "react";
-import HeroSection from "../Components/HeroSection";
-import AboutWakeel from "../Components/AboutWakeel";
-import ConnectWithUs from "../Components/ConnectWithUs";
-import Feature from "../Components/Feature";
-import OnlineDealings from "../Components/OnlineDealings";
-import Services from "../Components/Services";
+/* eslint-disable quotes */
+import React from 'react';
+import HeroSection from '../Components/HeroSection';
+import AboutWakeel from '../Components/AboutWakeel';
+import ConnectWithUs from '../Components/ConnectWithUs';
+import Feature from '../Components/Feature';
+import OnlineDealings from '../Components/OnlineDealings';
+import Services from '../Components/Services';
 
 function Home() {
   return (

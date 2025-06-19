@@ -1,4 +1,5 @@
-import { useNavigate } from "react-router-dom";
+/* eslint-disable quotes */
+import { useNavigate } from 'react-router-dom';
 
 function NotFound() {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ function NotFound() {
           <h2>Page Not Found</h2>
         </div>
         <p>You are lost in space</p>
-        <button className="global-btn" onClick={() => navigate("/")}>
+        <button className="global-btn" onClick={() => navigate('/')}>
           Go Back
         </button>
       </div>

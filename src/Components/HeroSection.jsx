@@ -1,5 +1,6 @@
-import React from "react";
-import { home } from "../Images";
+/* eslint-disable quotes */
+import React from 'react';
+import { home } from '../Images';
 
 function HeroSection() {
   return (

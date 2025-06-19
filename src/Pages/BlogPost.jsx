@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable quotes */
+import React from 'react';
 
 function BlogPost({ post }) {
   return (

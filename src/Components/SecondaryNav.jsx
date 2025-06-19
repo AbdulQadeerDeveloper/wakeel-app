@@ -1,7 +1,8 @@
-import React from "react";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
-import SecondaryNavbar from "../Data/SecondaryNavbar";
+/* eslint-disable quotes */
+import React from 'react';
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import SecondaryNavbar from '../Data/SecondaryNavbar';
 
 function SecondaryNav() {
   return (

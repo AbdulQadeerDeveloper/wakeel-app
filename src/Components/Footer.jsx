@@ -1,7 +1,8 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import FooterLinkData from "../Data/FooterLinkData";
-import { logo } from "../Images";
+/* eslint-disable quotes */
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import FooterLinkData from '../Data/FooterLinkData';
+import { logo } from '../Images';
 
 function Footer() {
   const navigate = useNavigate();
@@ -13,12 +14,8 @@ function Footer() {
         {/* Logo + Details */}
         <div className="my-site-details">
           <img src={logo} className="my-logo" alt="logo" />
-          <p className="my-site-description">
-            {/* Your site description here */}
-          </p>
-          <div className="my-social-icons">
-            {/* Social icons here */}
-          </div>
+          <p className="my-site-description">{/* Your site description here */}</p>
+          <div className="my-social-icons">{/* Social icons here */}</div>
         </div>
 
         {/* Footer Links */}
@@ -26,24 +23,22 @@ function Footer() {
           <div className="my-section">
             <h1 className="my-section-title">Important Links</h1>
             <ul className="list-style">
-              {
-                FooterLinkData.map((item) => (
-                  <div
-                    className="my-list-item cursor-pointer"
-                    role="button"
-                    tabIndex={0}
-                    key={item.link}
-                    onClick={() => navigate(item.link)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") {
-                        navigate(item.link);
-                      }
-                    }}
-                  >
-                    {item.title}
-                  </div>
-                ))
-              }
+              {FooterLinkData.map((item) => (
+                <div
+                  className="my-list-item cursor-pointer"
+                  role="button"
+                  tabIndex={0}
+                  key={item.link}
+                  onClick={() => navigate(item.link)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      navigate(item.link);
+                    }
+                  }}
+                >
+                  {item.title}
+                </div>
+              ))}
             </ul>
           </div>
         </div>
