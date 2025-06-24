@@ -22,22 +22,11 @@ function Footer() {
         <div className="my-footer-links">
           <div className="my-section">
             <h1 className="my-section-title">Important Links</h1>
-            <ul className="list-style">
+            <ul className="list-style ">
               {FooterLinkData.map((item) => (
-                <div
-                  className="my-list-item cursor-pointer"
-                  role="button"
-                  tabIndex={0}
-                  key={item.link}
-                  onClick={() => navigate(item.link)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') {
-                      navigate(item.link);
-                    }
-                  }}
-                >
+                <Link key={item.id} to={`/${item.link}`} className="my-list-item link cursor-pointer ">
                   {item.title}
-                </div>
+                </Link>
               ))}
             </ul>
           </div>

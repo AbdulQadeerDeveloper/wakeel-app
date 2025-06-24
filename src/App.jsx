@@ -8,8 +8,11 @@ import Preloader from './Components/Preloader';
 import Home from './Pages/Home';
 import BlogPost from './Pages/BlogPost';
 import NotFound from './Pages/NotFound';
-import FooterLinkData from './Data/FooterLinkData';
+// import FooterLinkData from './Data/FooterLinkData';
 import connectWithUs from './Data/connectWithUs';
+import TermsAndConditions from './Pages/TermsAndCondition';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import FAQs from './Pages/FAQs';
 
 function ScrollToTop(props) {
   const location = useLocation();
@@ -43,9 +46,12 @@ function App() {
               {connectWithUs.map((post) => (
                 <Route key={post.link} path={post.link} element={<BlogPost post={post} />} />
               ))}
-              {FooterLinkData.map((item) => (
+              {/* {FooterLinkData.map((item) => (
                 <Route key={item.link} path={item.link} element={item.page} />
-              ))}
+              ))} */}
+              <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/faqs" element={<FAQs />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
