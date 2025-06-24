@@ -25,6 +25,7 @@ function PrivacyPolicy() {
                   </Link>
                 </p>
               ) : (
+                // eslint-disable-next-line react/no-danger
                 <p className="privacy-paragraph global-paragraph" style={{ whiteSpace: 'pre-wrap' }} dangerouslySetInnerHTML={{ __html: item.content }} />
               )}
             </div>
