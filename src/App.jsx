@@ -46,13 +46,10 @@ function App() {
               {connectWithUs.map((post) => (
                 <Route key={post.link} path={post.link} element={<BlogPost post={post} />} />
               ))}
-              {/* {FooterLinkData.map((item) => (
-                <Route key={item.link} path={item.link} element={item.page} />
-              ))} */}
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/faqs" element={<FAQs />} />
-              <Route path="*" element={<NotFound />} />
+              {/* <Route path="*" element={<NotFound />} /> */}
             </Routes>
             <Footer />
           </BrowserRouter>
