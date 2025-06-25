@@ -4,17 +4,17 @@ const FooterLinkData = [
   {
     id: 1,
     title: 'Privacy Policy',
-    link: 'privacy-policy',
+    link: '/privacy-policy',
   },
   {
     id: 2,
     title: 'FAQs',
-    link: 'faqs',
+    link: '/faqs',
   },
   {
     id: 3,
     title: 'Terms & Conditions',
-    link: 'terms-and-conditions',
+    link: '/terms-and-conditions',
   },
 ];
 
