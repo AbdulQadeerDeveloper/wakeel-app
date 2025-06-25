@@ -21,7 +21,7 @@
 
 .about-right .image-box {
   width: 400px;
-  background: url("../Images/circle-hollow.png");
+  background: url('../Images/circle-hollow.png');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
