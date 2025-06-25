@@ -24,7 +24,7 @@ function Footer() {
             <h1 className="my-section-title">Important Links</h1>
             <ul className="list-style ">
               {FooterLinkData.map((item) => (
-                <Link key={item.id} to={`/${item.link}`} className="my-list-item link cursor-pointer ">
+                <Link key={item.id} to={`${item.link}`} className="my-list-item link cursor-pointer ">
                   {item.title}
                 </Link>
               ))}
