@@ -70,7 +70,6 @@ function Preloader({ isLoading }) {
           <div style={percentageStyle}>
             Loading
             {loadingPercentage}
-            %
           </div>
         </div>
       )}
