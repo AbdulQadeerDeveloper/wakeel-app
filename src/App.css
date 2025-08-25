@@ -978,6 +978,21 @@ section#services {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0px !important;
+  }
+  .feature-img img {
+    width: 200px;
+    position: relative;
+    left: 1rem !important;
+  }
+  .feature.feature-reverse .feature-img {
+    position: relative;
+    left: -23px !important;
+  }
+  .about-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-left: 0rem;
   }
   .secondary-nav {
