@@ -41,7 +41,9 @@ function ConnectWithUs() {
   return (
     <section id="connect-with-us" className="global-container">
       <div className="global-spacer-mini"></div>
-      <h1 className="global-heading">Connect With Us</h1>
+      <center>
+        <h1 className="global-heading">Connect With Us</h1>
+      </center>
       <Swiper spaceBetween={space} slidesPerView={slides} modules={[Navigation]} className="Swiper mySwiper">
         {connectWithUs.map((card) => (
           <SwiperSlide key={card.id} className="slider-card">

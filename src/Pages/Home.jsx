@@ -6,6 +6,7 @@ import ConnectWithUs from '../Components/ConnectWithUs';
 import Feature from '../Components/Feature';
 import OnlineDealings from '../Components/OnlineDealings';
 import Services from '../Components/Services';
+import FeatureBg from '../Components/FeatureBg';
 
 function Home() {
   return (
@@ -18,6 +19,8 @@ function Home() {
 
       {/* Features Section */}
       <Feature />
+
+      <FeatureBg />
 
       {/* Services of Wakeel */}
       <Services />

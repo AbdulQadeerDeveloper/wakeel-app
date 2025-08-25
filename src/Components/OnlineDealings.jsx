@@ -7,6 +7,9 @@ import OnlineDealingsData from '../Data/OnlineDealingsData';
 function OnlineDealings() {
   return (
     <section id="online-dealings">
+      <center>
+        <h1 className="global-heading">Online Dealings</h1>
+      </center>
       <div className="global-spacer"></div>
       <div className="global-container online-dealings">
         <div className="odealings-img">
@@ -17,7 +20,6 @@ function OnlineDealings() {
         </div>
 
         <div className="odealings">
-          <h1 className="global-heading">Online Dealings</h1>
           <div className="offered-services">
             {OnlineDealingsData.map((item) => (
               <div key={item.id} className={`oservice ${item.id !== OnlineDealingsData.length ? 'border' : ''}`}>

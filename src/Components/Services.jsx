@@ -6,9 +6,10 @@ function Services() {
   return (
     <section className="services-section" id="services">
       {/* Services Top */}
+      <center>
+        <h2 className="global-heading">Our Services</h2>
+      </center>
       <div className="services-top">
-        <h2 className=" global-heading">Our Services</h2>
-
         <p className="global-paragraph">
           &quot Wakiel App is a Lawyer Appointment System. In this system, a client can free register and login and make an appointment with his/her desired lawyer. Client can search lawyer based on
           location or chember departmentwise and appoint quickly. A client can also put his case on our platform, and our lawyer community will bid on the subject case. Lawyer can also login and

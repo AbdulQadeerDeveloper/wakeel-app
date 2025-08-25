@@ -11,32 +11,59 @@
 
 .feature-reverse {
   flex-direction: row-reverse;
-  background-color: rgb(15, 27, 14);
+  background-color: rgb(35, 56, 33);
 }
 
 .feature-detail,
 .feature-img {
-  width: 50%;
+  width: 100%;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+section#featuresBg .feature {
+  display: none;
+}
+.featuresBg .feature-detail,
+.feature-img {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 1.7rem;
+}
+.feature.feature-reverse .feature-img {
+  position: relative;
+  left: -180px;
+}
+services-section {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding-top: 70px !important;
+}
 
 .feature-detail {
   flex-direction: column;
 }
-
-.feature-detail .feature-text-box {
-  width: 300px;
+section#online-dealings {
+  padding-top: 70px;
 }
-
+.feature-detail .feature-text-box {
+  width: 64%;
+  position: relative;
+  right: 7px;
+}
 .feature-black-heading {
   color: rgb(0, 0, 0);
 }
 
 .feature-img img {
   width: 200px;
+  position: relative;
+  left: 5rem;
   border-radius: 25px;
   box-shadow: -5px -5px 25px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.1);

@@ -12,7 +12,7 @@ function HeroSection() {
           <div className="shade2"></div>
         </div>
 
-        <div className="center-flex container">
+        <div className="center-flex container" id="hero-container">
           <div className="left-side">
             <h1>Hire your Lawyer online now!</h1>
             <p className="hero-paragraph">

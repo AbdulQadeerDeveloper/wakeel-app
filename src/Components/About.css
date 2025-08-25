@@ -2,6 +2,8 @@
 
 /* Main container */
 .WaAboutWakeel {
+  max-width: 1030px;
+  margin: auto;
   width: 100%;
   display: flex;
 }
@@ -17,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 11rem;
 }
 
 .about-right .image-box {
@@ -66,11 +69,13 @@
 }
 
 /* Paragraph styles */
+
 .para {
   font-size: 20px;
-  font-weight: 200;
-  color: black;
+  font-weight: 300;
+  color: rgb(48, 46, 46);
   padding-bottom: 30px;
+  letter-spacing: 1.5px;
 }
 
 @media (max-width: 1024px) {
