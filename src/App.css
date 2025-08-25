@@ -944,14 +944,53 @@ section#services {
   .mobile {
     display: block;
   }
-
+  .about-right {
+    align-items: center;
+    padding-left: 0;
+  }
+  .feature-img img {
+    border-radius: 25px;
+    left: 0rem;
+    position: relative;
+    width: 200px;
+  }
   .tablet {
     display: block;
   }
-
+  .hero-section .right-side {
+    height: 100%;
+    padding-left: 0rem;
+    width: 50%;
+  }
+  .feature.feature-reverse .feature-img {
+    position: relative;
+    left: 0px;
+  }
+  .feature-img img {
+    width: 200px;
+    position: relative;
+    left: 0rem;
+    border-radius: 25px;
+    box-shadow: -5px -5px 25px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.1);
+  }
+  .about-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+  }
   .secondary-nav {
     height: 25px;
     font-size: 12px;
+  }
+  .feature-img img {
+    width: 200px;
+    position: relative;
+    left: 2rem;
+    border-radius: 25px;
+    box-shadow: -5px -5px 25px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.1);
   }
 
   .arrow-icon-box {
