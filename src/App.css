@@ -513,6 +513,70 @@ section#services {
 }
 
 /* ----------------------- Footer Section ---------------------- */
+.my-social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.my-social-icons a {
+  color: #ccc;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Facebook */
+.my-social-icons a[href*='facebook']:hover {
+  background-color: #1877f2;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Twitter (X) */
+.my-social-icons a[href*='twitter']:hover {
+  background-color: #1da1f2;
+  color: #fff;
+  transform: rotate(10deg);
+}
+
+/* Instagram */
+.my-social-icons a[href*='instagram']:hover {
+  background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
+  color: #fff;
+  transform: scale(1.15) rotate(-10deg);
+}
+
+/* LinkedIn */
+.my-social-icons a[href*='linkedin']:hover {
+  background-color: #0077b5;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 119, 181, 0.6);
+}
+
+.my-copyright {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(10, 31, 18);
+  letter-spacing: 1.5px;
+}
+
+.my-copyright .link-style {
+  text-decoration: none;
+  color: greenyellow;
+  transition: color 0.3s ease;
+}
+
+.my-copyright .link-style:hover {
+  color: white;
+}
 .my-footer {
   width: 100%;
   display: flex;
@@ -524,93 +588,119 @@ section#services {
 
 .footer-top {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
+  padding: 40px 0;
 }
 
-.footer-top .my-site-details {
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.my-site-details .my-logo {
-  width: 90px;
-}
-
-.my-site-details .my-site-description {
-  padding: 50px 200px;
-  font-size: 20px;
-  letter-spacing: 1.05px;
-  font-weight: 200;
-  text-align: center;
-}
-
-.my-site-details .my-social-icons {
-  display: flex;
-  gap: 1rem;
-}
-
-.footer-top .my-footer-links {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding: 12px;
-}
-
-.my-section {
+.footer-col {
   flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.my-logo {
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+.my-site-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+  color: #ccc;
 }
 
 .my-section-title {
-  font-size: 28px;
-  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+  font-weight: 500;
   color: rgb(202, 157, 62);
-  padding-bottom: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .list-style {
   list-style: none;
-}
-
-.footer-top .my-footer-links ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .my-list-item {
-  width: 30%;
-  padding: 12px 0;
-  font-size: 18px;
-  font-weight: 200;
-  cursor: pointer;
-  color: white !important;
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #ccc;
   text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 1.5px;
+}
+.my-list-item:hover {
+  color: greenyellow;
+}
+
+.inline-icon {
+  margin-right: 10px;
+  color: #ccc;
 }
 
 .my-copyright {
-  padding: 1rem 0;
+  padding: 20px 0;
   text-align: center;
   font-size: 14px;
-  letter-spacing: 1.05px;
-  font-weight: 100;
-  color: white;
-  border-top: 1px solid #ffffff61;
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(10, 31, 18);
 }
 
 .my-copyright .link-style {
   text-decoration: none;
   color: greenyellow;
+  transition: color 0.3s ease;
 }
 
+.my-copyright .link-style:hover {
+  color: #ccc;
+}
+
+.logo {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  .my-social-icons {
+    justify-content: center;
+  }
+
+  .my-list-item {
+    justify-content: center;
+  }
+}
 /* ---------------------- Page Not Found --------------------- */
 .page-404 {
   position: fixed;

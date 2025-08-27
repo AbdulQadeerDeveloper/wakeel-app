@@ -23,7 +23,7 @@ const featureSection = [
     title: 'Find The',
     greenTitle: 'Best lawyer',
     detail:
-      "With Wakiel's smart search and filtering options, users can quickly narrow down their search for the best lawyer. Whether it's based on specialization, location, ratings, or fee structure, the app's intuitive interface simplifies the process of finding the most suitable legal expert.",
+      "With Wakeel's smart search and filtering options, users can quickly narrow down their search for the best lawyer. Whether it's based on specialization, location, ratings, or fee structure, the app's intuitive interface simplifies the process of finding the most suitable legal expert.",
     img: messageImage,
   },
 ];

@@ -1,62 +1,54 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable quotes */
-import React, { useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
-import { Navigation } from 'swiper/modules';
-import { useNavigate } from 'react-router-dom';
-import './ConnectWithUs.css';
-import connectWithUs from '../Data/connectWithUs';
+'use client';
 
-function ConnectWithUs() {
-  const [slides, setSlides] = useState(2);
-  const [space, setSpace] = useState(30);
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Autoplay } from 'swiper'; // ✅ v10 me yahan se import karo
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import connectWithUs from '../Data/connectWithUs';
+import './ConnectWithUs.css';
+
+const ConnectWithUs = () => {
   const navigate = useNavigate();
 
-  const resizeSlider = () => {
-    if (window.innerWidth > 768) {
-      setSlides(2);
-      setSpace(40);
-    } else if (window.innerWidth > 425 && window.innerWidth <= 768) {
-      setSlides(1);
-      setSpace(20);
-    } else {
-      setSlides(1);
-      setSpace(15);
-    }
-  };
-
-  useEffect(() => {
-    resizeSlider();
-    window.addEventListener('resize', resizeSlider);
-    return () => {
-      window.removeEventListener('resize', resizeSlider);
-    };
-  }, []);
-
   return (
-    <section id="connect-with-us" className="global-container">
-      <div className="global-spacer-mini"></div>
-      <center>
-        <h1 className="global-heading">Connect With Us</h1>
-      </center>
-      <Swiper spaceBetween={space} slidesPerView={slides} modules={[Navigation]} className="Swiper mySwiper">
+    <div className="swiper-container">
+      <Swiper
+        modules={[Pagination, Autoplay]}
+        spaceBetween={20}
+        slidesPerView={2}
+        autoplay={{ delay: 3000 }}
+        loop={true}
+        pagination={{
+          el: '.custom-pagination',
+          clickable: true,
+        }}
+        breakpoints={{
+          320: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 2 },
+        }}
+        className="Swiper"
+      >
         {connectWithUs.map((card) => (
-          <SwiperSlide key={card.id} className="slider-card">
-            <h1 className="card-heading">{card.heading}</h1>
-            <p className="card-paragraph">{card.paragraph}</p>
-            <button className="global-btn" onClick={() => navigate(card.link)}>
-              Read More
-            </button>
+          <SwiperSlide key={card.id}>
+            <div className="slider-card">
+              <h1 className="card-heading">{card.heading}</h1>
+              <p className="card-paragraph">{card.paragraph}</p>
+              <button className="global-btn" onClick={() => navigate(card.link)}>
+                Read More
+              </button>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+
+      <div className="custom-pagination"></div>
+    </div>
   );
-}
+};
 
 export default ConnectWithUs;

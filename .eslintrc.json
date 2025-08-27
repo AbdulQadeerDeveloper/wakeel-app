@@ -8,22 +8,17 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".json"]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   },
   "plugins": ["react", "prettier", "jsx-a11y"],
   "rules": {
-    "quotes": [
-      "error",
-      "double",
-      {
-        "avoidEscape": true
-      }
-    ],
+    "quotes": "off",
     "prettier/prettier": "warn",
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
@@ -35,6 +30,9 @@
     "react/no-array-index-key": "off",
     "object-curly-newline": "off",
     "max-len": ["off", { "code": 200 }],
-    "react/self-closing-comp": "off"
+    "react/self-closing-comp": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-boolean-value": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }

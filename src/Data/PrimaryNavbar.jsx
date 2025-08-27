@@ -27,7 +27,7 @@ const PrimaryNavbar = [
   },
   {
     id: 5,
-    title: 'Connect With Us',
+    title: 'Connect with Us',
     link: '#connect-with-us',
   },
 ];

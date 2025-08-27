@@ -2,15 +2,15 @@
 const faqData = [
   {
     id: 1,
-    question: 'What types of legal services can I find on Wakiel app?',
+    question: 'What types of legal services can I find on Wakeel app?',
     answer:
-      'Wakiel app offers an extensive array of legal services to cater to diverse needs. Our accomplished lawyers specialize in various areas, including criminal law, family law, personal injury, estate planning, business law, intellectual property, and more. We understand that legal challenges are multifaceted, and our skilled legal professionals are here to provide tailored solutions for your specific needs.',
+      'Wakeel app offers an extensive array of legal services to cater to diverse needs. Our accomplished lawyers specialize in various areas, including criminal law, family law, personal injury, estate planning, business law, intellectual property, and more. We understand that legal challenges are multifaceted, and our skilled legal professionals are here to provide tailored solutions for your specific needs.',
   },
   {
     id: 2,
     question: 'How do I go about scheduling a consultation with a lawyer?',
     answer:
-      'Scheduling a consultation is a streamlined process. You can initiate it by accessing our user-friendly Wakiel app. Through the app, you can provide details about your legal matter, your preferred consultation date and time, and any specific requirements you have. Our dedicated team will then work closely with you to confirm the appointment, ensuring a convenient and efficient process for your legal consultation.',
+      'Scheduling a consultation is a streamlined process. You can initiate it by accessing our user-friendly Wakeel app. Through the app, you can provide details about your legal matter, your preferred consultation date and time, and any specific requirements you have. Our dedicated team will then work closely with you to confirm the appointment, ensuring a convenient and efficient process for your legal consultation.',
   },
   {
     id: 3,
@@ -22,19 +22,19 @@ const faqData = [
     id: 4,
     question: "How can I ensure that I'm choosing the right lawyer for my specific case?",
     answer:
-      "Selecting the right lawyer is pivotal to achieving a positive outcome. Our Wakiel app simplifies this process by providing detailed profiles of our lawyers, showcasing their areas of specialization, experience, and successful case history. Additionally, you can read reviews from clients who have previously engaged their services. If you're uncertain, our team is available to provide guidance tailored to your unique legal requirements.",
+      "Selecting the right lawyer is pivotal to achieving a positive outcome. Our Wakeel app simplifies this process by providing detailed profiles of our lawyers, showcasing their areas of specialization, experience, and successful case history. Additionally, you can read reviews from clients who have previously engaged their services. If you're uncertain, our team is available to provide guidance tailored to your unique legal requirements.",
   },
   {
     id: 5,
     question: 'Can I modify or cancel a scheduled appointment?',
     answer:
-      'Absolutely, we understand that plans can change. Should you need to modify or cancel a scheduled appointment, you can easily do so through our Wakiel app. Simply log in to your account, navigate to your bookings, and make the necessary changes. To ensure optimal scheduling for both you and our lawyers, we appreciate your consideration in providing advance notice for any adjustments.',
+      'Absolutely, we understand that plans can change. Should you need to modify or cancel a scheduled appointment, you can easily do so through our Wakeel app. Simply log in to your account, navigate to your bookings, and make the necessary changes. To ensure optimal scheduling for both you and our lawyers, we appreciate your consideration in providing advance notice for any adjustments.',
   },
   {
     id: 6,
     question: 'How does the security of online consultations work?',
     answer:
-      'We prioritize the security and confidentiality of your online consultations. Our Wakiel app employs advanced encrypted communication platforms to ensure that your discussions with our lawyers remain private and protected. We understand that discussing legal matters requires a safe environment, and our commitment to security means you can engage in meaningful conversations and receive expert advice securely from anywhere.',
+      'We prioritize the security and confidentiality of your online consultations. Our Wakeel app employs advanced encrypted communication platforms to ensure that your discussions with our lawyers remain private and protected. We understand that discussing legal matters requires a safe environment, and our commitment to security means you can engage in meaningful conversations and receive expert advice securely from anywhere.',
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     id: 10,
-    question: 'How do I join the network of lawyers on the Wakiel app?',
+    question: 'How do I join the network of lawyers on the Wakeel app?',
     answer:
       "Joining our network of lawyers is a straightforward process. If you're a qualified lawyer interested in expanding your reach and offering your expertise through our platform, please contact our partnership team. We'll guide you through the onboarding process, help you create a comprehensive profile, and assist you in leveraging our app to connect with clients seeking legal assistance.",
   },

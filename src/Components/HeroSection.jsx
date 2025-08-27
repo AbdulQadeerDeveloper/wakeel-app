@@ -19,7 +19,7 @@ function HeroSection() {
               Hiring your lawyer has never been easier! With our user-friendly online platform, you can now access top-notch legal expertise right from the comfort of your home or office. Our
               extensive network of skilled attorneys covers a wide range of practice areas, ensuring you find the perfect match for your specific legal needs. Simply browse through our profiles, read
               client reviews, and schedule a consultation with the lawyer of your choice. Our secure and efficient platform guarantees a seamless experience, allowing you to focus on what matters most
-              - your case. Say goodbye to traditional hassles and embrace the convenience of hiring your lawyer online today!
+              your case. Say goodbye to traditional hassles and embrace the convenience of hiring your lawyer online today!
             </p>
           </div>
 

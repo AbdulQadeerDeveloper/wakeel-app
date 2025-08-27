@@ -10,8 +10,8 @@ const OnlineDealingsData = [
   {
     id: 1,
     icon: <AiFillWechat />,
-    text: 'Live chats with Wakiel',
-    detail: "Step into a world of knowledge and inspiration with 'Live chats with Wakiel.' Engage, learn, and grow as Wakiel sparks enlightening conversations, igniting your curiosity.",
+    text: 'Live chats with Wakeel',
+    detail: "Step into a world of knowledge and inspiration with 'Live chats with Wakeel.' Engage, learn, and grow as Wakiel sparks enlightening conversations, igniting your curiosity.",
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const OnlineDealingsData = [
   {
     id: 3,
     icon: <ImUserTie />,
-    text: 'Hiring Available Wakiels',
-    detail: 'Unlock excellence: hiring available Wakiels. Embrace brilliance, expertise, and innovation with our exceptional team of Wakiels ready to conquer challenges.',
+    text: 'Hiring Available Wakeels',
+    detail: 'Unlock excellence: hiring available Wakeels. Embrace brilliance, expertise, and innovation with our exceptional team of Wakrels ready to conquer challenges.',
   },
   {
     id: 4,
