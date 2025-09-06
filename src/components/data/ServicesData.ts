@@ -14,33 +14,39 @@ export interface ServiceItem {
 
 const ServicesData: ServiceItem[] = [
   {
-    title: "Live Chats with Lawyers",
-    description: "Real-time Solutions, Right at Your Fingertips! Real-time Solutions, Right at Your Fingertips! Real-time Solutions, Right at Your Fingertips!",
+    title: "Lawyer Discovery & Profiles",
+    description:
+      "Search verified lawyers by expertise, experience, and availability. Access detailed profiles to find the right legal professional for your case.",
     icon: PiChatsCircleBold,
   },
   {
-    title: "Watch Status of Your Case",
-    description: "Stay Informed, Stay Confident! Stay Informed, Stay Confident! Stay Informed, Stay Confident!",
+    title: "Appointment Scheduling",
+    description:
+      "Book consultations instantly with real-time availability and calendar integration. Quick, simple, and hassle-free lawyer-client coordination.",
     icon: MdQueryStats,
   },
   {
-    title: "Hiring Available Lawyers",
-    description: "Your Perfect Legal Match Awaits. Your Perfect Legal Match Awaits.",
+    title: "Online Consultations",
+    description:
+      "Chat securely with professional lawyers for case discussions, queries, and legal advice. Confidential, reliable, and available anytime.",
     icon: FaUserTie,
   },
   {
-    title: "Manage Your Account in Secure Form",
-    description: "Your Data, Your Control. Your Data, Your Control.",
+    title: "Case Tracking & Notifications",
+    description:
+      "Stay updated with instant alerts for appointments, lawyer responses, and case progress. Track your legal matters in real time.",
     icon: GrSecure,
   },
   {
-    title: "Payments Method Integration",
-    description: "Hassle-free Transactions, Total Peace of Mind Hassle-free Transactions",
+    title: "Multilingual Support",
+    description:
+      "Access legal help in Urdu and English. Wakeel App ensures inclusivity and easy communication for diverse clients across regions.",
     icon: GiPayMoney,
   },
   {
-    title: "Customer Support",
-    description: "Our Team, Your Advocates, Always by Your Side ",
+    title: "AI Legal Assistant",
+    description:
+      "Get smarter access to justice with AI tools. Enjoy lawyer matching, instant legal FAQs, and fraud detection for verified interactions.",
     icon: TfiHeadphoneAlt,
   },
 ];

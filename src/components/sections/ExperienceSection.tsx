@@ -19,16 +19,16 @@ export default function ExperienceSection() {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-4">
         <h2 className="text-white font-inter font-bold text-2xl sm:text-3xl md:text-5xl leading-snug md:leading-[64px]">
-          Ready To Experience These Features?
+          Ready to Book a Lawyer?
         </h2>
         <p className="text-white/90 font-inter text-base sm:text-lg md:text-xl mt-3 sm:mt-4 max-w-xl">
-          Download Wakeel App today and transform your legal experience
+          Find verified lawyers, pick a time, and start a secure consultation.
         </p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 justify-center w-full sm:w-auto">
           <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-white font-medium bg-gradient-to-r from-[#03DA03] to-[#027402] hover:opacity-90 transition w-full sm:w-auto">
-            Download Now
+            Book a Lawyer
           </button>
           <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-[#E7B10C] font-medium border border-[#E7B10C] hover:bg-[#E7B10C]/10 transition w-full sm:w-auto">
             Watch Demo

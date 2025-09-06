@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
+import { CheckCircle } from "lucide-react";
 import "swiper/css/navigation";
 import Image from "next/image";
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
@@ -10,36 +11,24 @@ import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 export default function ContactSection() {
   const cards = [
     {
-      title: (
-        <>
-          Wakeel: Your One to One Business <br /> Partner
-        </>
-      ),
-      text: "I had been facing challenges with family law for months until I discovered abc. They not only resolved my issues effectively but also guided me on how to avoid similar problems in the future. Their team is highly skilled, patient, and always prioritizes customer satisfaction.",
+      title: <>Booked in Minutes, Consulted Securely</>,
+      text: "I found a verified lawyer and booked a same-day consultation. Secure chat kept my details private, and notifications kept me on track from booking to follow-up.",
+      para: "Verified Client — Karachi · Family Law · 2025",
     },
     {
-      title: (
-        <>
-          Wakeel: Legal Solutions Made <br /> Simple
-        </>
-      ),
-      text: "I had been facing challenges with family law for months until I discovered abc. They not only resolved my issues effectively but also guided me on how to avoid similar problems in the future. Their team is highly skilled, patient, and always prioritizes customer satisfaction.",
+      title: <>Right Lawyer, Right Away</>,
+      text: "Smart matching and clear profiles helped me choose fast. Scheduling was simple, and timely reminders made the whole process smooth and stress-free.",
+      para: "Verified Client — Islamabad · Civil Matter · 2025",
     },
     {
-      title: (
-        <>
-          Wakeel: Legal Solutions Made <br /> Simple
-        </>
-      ),
-      text: "I had been facing challenges with family law for months until I discovered abc. They not only resolved my issues effectively but also guided me on how to avoid similar problems in the future. Their team is highly skilled, patient, and always prioritizes customer satisfaction.",
+      title: <>Booked in Minutes, Consulted Securely</>,
+      text: "I found a verified lawyer and booked a same-day consultation. Secure chat kept my details private, and notifications kept me on track from booking to follow-up.",
+      para: "Verified Client — Karachi · Family Law · 2025",
     },
     {
-      title: (
-        <>
-          Wakeel: Legal Solutions Made <br /> Simple
-        </>
-      ),
-      text: "I had been facing challenges with family law for months until I discovered abc. They not only resolved my issues effectively but also guided me on how to avoid similar problems in the future. Their team is highly skilled, patient, and always prioritizes customer satisfaction.",
+      title: <>Right Lawyer, Right Away</>,
+      text: "Smart matching and clear profiles helped me choose fast. Scheduling was simple, and timely reminders made the whole process smooth and stress-free.",
+      para: "Verified Client — Islamabad · Civil Matter · 2025",
     },
   ];
 
@@ -75,11 +64,18 @@ export default function ContactSection() {
 
       <div className="max-w-5xl mx-auto relative z-10 px-4">
         {/* Section Heading */}
-        <div className="mb-12 text-center md:text-left">
-          <p className="text-lg font-bold text-[#16633A]">Contact</p>
-          <h2 className="text-4xl md:text-6xl font-bold text-black mt-2">
-            Contact With Us
+        <div className="mb-12 text-left">
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 mb-4">
+            What
+            <span className="bg-gradient-to-r from-[rgba(22,99,58,1)] to-[rgba(3,75,36,1)] bg-clip-text text-transparent">
+              {" "}
+              Clients Say
+            </span>
           </h2>
+          <p className="text-base lg:text-lg text-gray-600 leading-relaxed">
+            Real experiences using Wakeel App to find verified lawyers, consult
+            securely, and stay updated.
+          </p>
         </div>
 
         {/* Swiper Slider */}
@@ -112,12 +108,18 @@ export default function ContactSection() {
              shadow-md"
                   />
 
-                  <h3 className="text-lg md:text-lg font-semibold text-[#022E17] text-center mt-6 leading-snug">
+                  <h3 className="text-lg md:text-base font-semibold text-[#022E17] text-center mt-6 leading-snug">
                     {card.title}
                   </h3>
                   <p className="text-gray-600 text-sm md:text-sm  text-justify mt-4 leading-7">
                     {card.text}
                   </p>
+                  {card.para && (
+                    <div className="flex items-center gap-2 mt-4">
+                      <CheckCircle className="w-4 h-4 text-green-600" />
+                      <span className="text-xs text-gray-500">{card.para}</span>
+                    </div>
+                  )}
 
                   {/* Button always bottom */}
                   <div className="mt-auto flex pt-5 justify-center">

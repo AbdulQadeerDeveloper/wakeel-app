@@ -33,9 +33,10 @@ const Footer = () => {
             />
 
             <p className="text-gray-400 text-sm mb-6">
-              Connecting you with expert legal professionals through innovative
-              technology. Experience seamless legal consultation at your
-              fingertips with our trusted platform.
+              Wakeel App is your trusted gateway to professional legal services.
+              Discover verified lawyers, book appointments, and manage your
+              legal needs with confidence through our user-friendly digital
+              platform.
             </p>
 
             {/* Social Icons */}
@@ -155,7 +156,7 @@ const Footer = () => {
 
       {/* Gradient Bottom Bar */}
       <div className="w-full bg-gradient-to-b from-[#16633A] to-[#034B24]">
-        <div className="max-w-[80%] mx-auto  py-4 flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-[80%] mx-auto px-7  py-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white text-sm text-center md:text-left mb-2 md:mb-0">
             Copyright © 2025 Wakeel All Rights Reserved.
           </p>
