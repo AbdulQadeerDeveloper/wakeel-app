@@ -42,8 +42,6 @@ const HomePage = () => {
         <Feature />
         <ExperienceSection />
         <ContactSection />
-        <NewsletterSignup />
-        <Footer />
       </Layout>
     </>
   );
