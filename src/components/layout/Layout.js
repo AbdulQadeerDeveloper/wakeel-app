@@ -1,5 +1,7 @@
 import PrimaryNav from '../sections/PrimaryNav';
 import SecondaryNav from '../sections/SecondaryNav'
+import Footer from '../sections/Footer'
+import NewsletterSignup from '../sections/NewsletterSignup';
 
 const Layout = ({ children }) => {
   return (
@@ -13,6 +15,9 @@ const Layout = ({ children }) => {
 
       {/* Main content */}
       <main className="relative z-10">{children}</main>
+
+      <NewsletterSignup />
+      <Footer />
       </div>
 
   );

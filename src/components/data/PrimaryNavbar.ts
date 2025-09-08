@@ -25,7 +25,7 @@ const PrimaryNavbar: NavbarItem[] = [
   {
     id: 3,
     title: "Services",
-    link: "#services",
+    link: "/ServicesPage",
   },
   {
     id: 4,
