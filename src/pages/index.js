@@ -9,24 +9,33 @@ import NewsletterSignup from '../components/sections/NewsletterSignup';
 import ExperienceSection from '../components/sections/ExperienceSection';
 import ContactSection from '../components/sections/ContactSection';
 import Footer from '../components/sections/Footer';
-
+import WorkProcess from '../components/sections/WorkProcessAbout'
+import StatsSection from '../components/sections/StatsSection'
+import NewsSlider from "../components/sections/NewsSlider"
+import AboutBanner from "../components/sections/bannerAbout"
+import ContactPage from "../components/sections/ContactSectionAbout"
 const HomePage = () => {
   return (
     <>
       <Head>
         <title>Wakeel - Best Way to Manage Your Employees Easily</title>
-        <meta 
-          name="description" 
-          content="Save everyone time by harnessing your team's collective knowledge into easy-to-find information." 
+        <meta
+          name="description"
+          content="Save everyone time by harnessing your team's collective knowledge into easy-to-find information."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Layout>
 
         {/* Testimonials Section */}
         <HeroSections />
+        <WorkProcess />
+        <StatsSection />
+        <NewsSlider />
+        <AboutBanner />
+        <ContactPage />
         <AboutWakeel />
         <Services />
         <HelpSection />

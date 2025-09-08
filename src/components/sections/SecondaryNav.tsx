@@ -1,10 +1,10 @@
 // components/SecondaryNav.tsx
-'use client';
+"use client";
 import Image from "next/image";
-import React from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Link from 'next/link';
-import SecondaryNavbar from '../data/SecondaryNavbar';
+import React from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
+import SecondaryNavbar from "../data/SecondaryNavbar";
 
 const SecondaryNav: React.FC = () => {
   return (
@@ -18,8 +18,8 @@ const SecondaryNav: React.FC = () => {
 
           <span className="text-gray-300">{SecondaryNavbar.line}</span>
 
-          <Link 
-            href={SecondaryNavbar.link} 
+          <Link
+            href={SecondaryNavbar.link}
             className="text-primary-green hover:text-accent-gold transition-colors duration-300 font-medium relative group px-2"
             target="_blank"
           >
@@ -28,11 +28,11 @@ const SecondaryNav: React.FC = () => {
           </Link>
 
           <Image
-            src={SecondaryNavbar.emoji} 
-            alt={SecondaryNavbar.appname} 
+            src={SecondaryNavbar.emoji}
+            alt={SecondaryNavbar.appname}
             width={200}
             height={200}
-            className="w-4 h-4" 
+            className="w-4 h-4"
           />
 
           <div className="flex items-center text-gray-400">
