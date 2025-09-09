@@ -1,7 +1,7 @@
 import ContactBanner from "@/pages/contact/contactBanner";
 import ContactForm from "@/pages/contact/ContactSectionAbout";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <div id="contact">
       <ContactBanner />
@@ -10,4 +10,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default ContactPage;

@@ -1,6 +1,6 @@
 import Layout from '../components/layout/Layout';
 
-import AboutPage from './about/AboutPage'
+import AboutPage from './contact/ContactPage'
 export default function About() {
   return (
     < Layout >

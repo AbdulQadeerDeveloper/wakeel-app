@@ -10,17 +10,17 @@ const PrimaryNavbar: NavbarItem[] = [
   {
     id: 0,
     title: "Home",
-    link: "#hero",
+    link: "/",
   },
   {
     id: 1,
     title: "About",
-    link: "/about",
+    link: "/AboutPage",
   },
   {
     id: 2,
     title: "Feature",
-    link: "#features",
+    link: "/features",
   },
   {
     id: 3,
@@ -30,12 +30,12 @@ const PrimaryNavbar: NavbarItem[] = [
   {
     id: 4,
     title: "Online Dealings",
-    link: "#online-dealings",
+    link: "/online-dealings",
   },
   {
     id: 5,
     title: "Connect With Us",
-    link: "/connect",
+    link: "/ContactPage",
   },
 ];
 

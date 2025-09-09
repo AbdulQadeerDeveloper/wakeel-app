@@ -142,11 +142,11 @@ export default function NewsSlider() {
         {/* Heading */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 md:mb-16">
           <div className="text-center md:text-left mb-8 md:mb-0">
-            <p className="text-[#B68C5A] font-semibold text-lg mb-2">
+            <p className="text-[#f5a62a] font-semibold text-lg mb-2">
               News & Blog
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#000]">
-              Our Latest <span className="text-[#16633A]">News & Updates</span>
+              Our Latest <span className="text-[#000]">News & Updates</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#16633A] to-[#034B24] mt-4 mx-auto md:mx-0"></div>
           </div>
