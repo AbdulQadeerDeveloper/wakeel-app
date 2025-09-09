@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: [],
   },
-}
+  distDir: "build",
+  experimental: {
+    instrumentationHook: false, // disables trace writing
+  },
+};
 
 module.exports = nextConfig;

@@ -8,8 +8,6 @@ import Feature from '../components/sections/Feature';
 import ExperienceSection from '../components/sections/ExperienceSection';
 import ContactSection from '../components/sections/ContactSection';
 
-import AboutBanner from "./about/bannerAbout"
-import ContactPage from "./contact/ContactSectionAbout"
 const HomePage = () => {
   return (
     <>
@@ -27,8 +25,6 @@ const HomePage = () => {
 
         {/* Testimonials Section */}
         <HeroSections />
-        <AboutBanner />
-        <ContactPage />
         <AboutWakeel />
         <Services />
         <HelpSection />
