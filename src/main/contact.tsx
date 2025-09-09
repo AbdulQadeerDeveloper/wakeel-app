@@ -2,8 +2,8 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import NewsletterSignup from "../components/sections/NewsletterSignup";
 import Footer from "../components/sections/Footer";
-import ContactPage from "../components/sections/ContactSectionAbout";
-import ContactBanner from "../components/sections/contactBanner";
+import ContactPage from "../pages/contact/ContactSectionAbout";
+import ContactBanner from "../pages/contact/contactBanner";
 
 const ContactContainer = () => {
   return (

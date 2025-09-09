@@ -2,10 +2,10 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import NewsletterSignup from "../components/sections/NewsletterSignup";
 import Footer from "../components/sections/Footer";
-import WorkProcess from "../components/sections/WorkProcessAbout";
-import StatsSection from "../components/sections/StatsSection";
-import NewsSlider from "../components/sections/NewsSlider";
-import AboutBanner from "../components/sections/bannerAbout";
+import WorkProcess from "../pages/about/WorkProcessAbout";
+import StatsSection from "../pages/about/StatsSection";
+import NewsSlider from "../pages/about/NewsSlider";
+import AboutBanner from "../pages/about/bannerAbout";
 
 const AboutContainer = () => {
   return (

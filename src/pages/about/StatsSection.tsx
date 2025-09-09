@@ -3,10 +3,10 @@
 import Image from "next/image";
 import CountUp from "react-countup";
 
-import counter1 from "./images/counter_1_1.png";
-import counter2 from "./images/counter_1_2.png";
-import counter3 from "./images/counter_1_3.png";
-import counter4 from "./images/counter_1_4.png";
+import counter1 from "@/components/sections/images/counter_1_1.png";
+import counter2 from "@/components/sections/images/counter_1_2.png";
+import counter3 from "@/components/sections/images/counter_1_3.png";
+import counter4 from "@/components/sections/images/counter_1_4.png";
 
 export default function StatsSection() {
   return (

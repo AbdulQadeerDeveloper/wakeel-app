@@ -15,7 +15,7 @@ const PrimaryNavbar: NavbarItem[] = [
   {
     id: 1,
     title: "About",
-    link: "#about",
+    link: "/about",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const PrimaryNavbar: NavbarItem[] = [
   {
     id: 5,
     title: "Connect With Us",
-    link: "#connect-with-us",
+    link: "/connect",
   },
 ];
 

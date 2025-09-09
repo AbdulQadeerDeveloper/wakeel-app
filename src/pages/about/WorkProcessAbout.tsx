@@ -1,9 +1,9 @@
 import Image from "next/image";
-import hand from "./images/hand.png";
-import file from "./images/file.png";
-import balance from "./images/balanace.png";
-import mockup from "./images/Frame-56.png";
-import humenBackground from "./images/humen.png";
+import hand from "@/components/sections/images/hand.png";
+import file from "@/components/sections/images/file.png";
+import balance from "@/components/sections/images/balanace.png";
+import mockup from "@/components/sections/images/Frame-56.png";
+import humenBackground from "@/components/sections/images/humen.png";
 
 export default function WorkProcess() {
   return (

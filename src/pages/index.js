@@ -5,15 +5,11 @@ import AboutWakeel from '../components/sections/AboutWakeel';
 import Services from '../components/sections/Services';
 import HelpSection from '../components/sections/HelpSection';
 import Feature from '../components/sections/Feature';
-import NewsletterSignup from '../components/sections/NewsletterSignup';
 import ExperienceSection from '../components/sections/ExperienceSection';
 import ContactSection from '../components/sections/ContactSection';
-import Footer from '../components/sections/Footer';
-import WorkProcess from '../components/sections/WorkProcessAbout'
-import StatsSection from '../components/sections/StatsSection'
-import NewsSlider from "../components/sections/NewsSlider"
-import AboutBanner from "../components/sections/bannerAbout"
-import ContactPage from "../components/sections/ContactSectionAbout"
+
+import AboutBanner from "./about/bannerAbout"
+import ContactPage from "./contact/ContactSectionAbout"
 const HomePage = () => {
   return (
     <>
@@ -31,9 +27,6 @@ const HomePage = () => {
 
         {/* Testimonials Section */}
         <HeroSections />
-        <WorkProcess />
-        <StatsSection />
-        <NewsSlider />
         <AboutBanner />
         <ContactPage />
         <AboutWakeel />

@@ -1,6 +1,10 @@
 import Image from "next/image";
-import femaleImage from "./images/contact_1_man.png";
-import femaleBackgroundImage from "./images/bannerAbout.jpg";
+// Correct imports
+import femaleImage from "../images/contact_1_man.png";
+import femaleBackgroundImage from "../images/bannerAbout.jpg";
+import leftBanner from "../images/leftBanner.png";
+import rightBanner from "../images/rightBanner.png";
+
 import {
   FaEnvelope,
   FaMapMarkerAlt,
@@ -12,7 +16,28 @@ import {
 
 export default function ContactSection() {
   return (
-    <section className="py-16 bg-white">
+    <section className="bg-white relative py-16 lg:py-20 overflow-hidden">
+      {/* Left Banner */}
+      <div className="absolute bottom-10 left-0 w-[200px] opacity-100 z-0 hidden lg:block">
+        <Image
+          src={leftBanner}
+          alt="Left Banner"
+          width={150}
+          height={250}
+          className="object-contain"
+        />
+      </div>
+
+      {/* Right Banner */}
+      <div className="absolute bottom-10 right-0  w-[200px] opacity-100 z-0 hidden lg:block">
+        <Image
+          src={rightBanner}
+          alt="Right Banner"
+          width={150}
+          height={250}
+          className="object-contain"
+        />
+      </div>
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto shadow-lg rounded-2xl bg-[#F5F5F5] p-10 flex flex-col lg:flex-row items-center lg:items-start gap-12">
           {/* Left side - Contact form */}
@@ -155,7 +180,7 @@ export default function ContactSection() {
             </div>
 
             {/* Overlay Image */}
-            <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[340px] h-[630px] z-10">
+            <div className="absolute top-20 left-[65%]  -translate-x-1/2 w-[340px] h-[630px] z-10">
               <Image
                 src={femaleImage}
                 alt="Overlay"

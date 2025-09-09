@@ -11,9 +11,11 @@ import {
 import Image from "next/image";
 
 // Import local images
-import sliderImage1 from "./images/slider1.jpg";
-import sliderImage2 from "./images/slider2.jpg";
-import sliderImage3 from "./images/slide3.jpg";
+import sliderImage1 from "@/components/sections/images/slider1.jpg";
+import sliderImage2 from "@/components/sections/images/slider2.jpg";
+import sliderImage3 from "@/components/sections/images/slide3.jpg";
+import leftBanner from "@/components/sections/images/leftBanner.png";
+import rightBanner from "@/components/sections/images/rightBanner.png";
 
 const blogs = [
   {
@@ -114,14 +116,36 @@ export default function NewsSlider() {
 
   return (
     <section className="bg-white relative py-16 lg:py-20 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      {/* Left Banner */}
+      <div className="absolute bottom-10 left-0 w-[200px] opacity-100 z-0 hidden lg:block">
+        <Image
+          src={leftBanner}
+          alt="Left Banner"
+          width={150}
+          height={250}
+          className="object-contain"
+        />
+      </div>
+
+      {/* Right Banner */}
+      <div className="absolute bottom-10 right-0 w-[200px] opacity-100 z-0 hidden lg:block">
+        <Image
+          src={rightBanner}
+          alt="Right Banner"
+          width={150}
+          height={250}
+          className="object-contain"
+        />
+      </div>
+
+      <div className="max-w-6xl mx-auto relative z-10">
         {/* Heading */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 md:mb-16">
           <div className="text-center md:text-left mb-8 md:mb-0">
-            <p className="text-[#16633A] font-semibold text-lg mb-2">
+            <p className="text-[#B68C5A] font-semibold text-lg mb-2">
               News & Blog
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#033F2A]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#000]">
               Our Latest <span className="text-[#16633A]">News & Updates</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#16633A] to-[#034B24] mt-4 mx-auto md:mx-0"></div>
