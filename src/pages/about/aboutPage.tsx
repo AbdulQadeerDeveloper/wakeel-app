@@ -1,7 +1,7 @@
-import AboutBanner from "@/pages/about/bannerAbout";
-import NewsSlider from "@/pages/about/NewsSlider";
-import StatsSection from "@/pages/about/StatsSection";
-import WorkProcess from "@/pages/about/WorkProcessAbout";
+import AboutBanner from "@/pages/About/bannerAbout";
+import NewsSlider from "@/pages/About/NewsSlider";
+import StatsSection from "@/pages/About/StatsSection";
+import WorkProcess from "@/pages/About/WorkProcessAbout";
 
 const AboutPage = () => {
   return (
