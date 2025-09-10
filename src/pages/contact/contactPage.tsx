@@ -1,11 +1,11 @@
-import ContactBanner from "@/pages/contact/contactBanner";
-import ContactForm from "@/pages/contact/ContactSectionAbout";
+import ContactHeroSection from "./ContactBanner";
+import ContactSection from "./ContactSection";
 
 const AboutPage = () => {
   return (
     <div id="contact">
-      <ContactBanner />
-      <ContactForm />
+      <ContactHeroSection />
+      <ContactSection />
     </div>
   );
 };

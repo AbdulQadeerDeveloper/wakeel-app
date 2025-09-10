@@ -8,8 +8,8 @@ import Feature from '../components/sections/Feature';
 import ExperienceSection from '../components/sections/ExperienceSection';
 import ContactSection from '../components/sections/ContactSection';
 
-import AboutBanner from "./about/bannerAbout"
-import ContactPage from "./contact/ContactSectionAbout"
+import AboutBanner from "./About/bannerAbout"
+import ContactPage from "./Contact/ContactSection"
 const HomePage = () => {
   return (
     <>
