@@ -1,7 +1,7 @@
 import ContactHeroSection from "./ContactBanner";
 import ContactSection from "./ContactSection";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <div id="contact">
       <ContactHeroSection />
@@ -10,4 +10,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default ContactPage;

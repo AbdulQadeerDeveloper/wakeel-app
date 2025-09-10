@@ -87,7 +87,7 @@ export default function ContactSection() {
                 <textarea
                   id="message"
                   className="w-full pr-12 pl-4 py-3 border border-gray-300 rounded-2xl focus:outline-none resize-none"
-                  style={{ height: "40%" }}
+                  rows={5}
                   placeholder="Type your message here..."
                 ></textarea>
                 <FaRegCommentDots className="absolute right-4 top-6 text-gray-400" />
